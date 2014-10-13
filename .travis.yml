@@ -1,5 +1,33 @@
-language: ruby
-before_script: 
+
+  
+
+language: python 
+cache: apt
+
+env:
+  global:
+    secure: "UoWHJNW/YXhHHBdjJ9pQCrPQa1WLc24s8kxpgF5bOCAZbRLLh7ndVoLLpsMdf9XCbTw/42RpYFrhag8oLwNn2cqAHBV38A32vAodwt6TGjGlEqM7oNTllikGOolEo4XAkldULcG2dHa22oQjUqqrcFVu0AiPcOCJs7/BC5aalF8="
+
+
+
+  #  secure: "eeg3fbZ+021Nwb519WvJ6jBWJxQzepJAq/kPRCQgP7JgWadWcSuOukn+aN+Dij7T8Wks+PRZGsPN91Xh4keKOnlPSBme7wK8pt0osFpy2fdX9KCj6gOp0/+cpRrkpomdSo+hX1iNdqJcFjP8OtMtC08Vs0mTbjzN2OaPtEfuXGU="
+
+
+
+matrix:
+  fast_finish: true
+  
+# whitelist
+branches:
+  only:
+    - develop
+    
+before_install:
+  - echo before install
+
+
+  
+install: 
 #  - sudo apt-get -qq update 
 #  - sudo apt-get source tumiki-fighters
   - git clone --depth=1 https://github.com/brownman/travis_screencast
@@ -9,6 +37,22 @@ before_script:
   - mkdir /tmp/log
   - mkdir /tmp/PRODUCT
   - ./travis.sh
+
+
+
+before_script:
+  - echo before_script
+
+script:
+  - echo script1
   
 after_script:
-  - echo done
+  - echo after_script
+
+after_success:
+  - echo after_success
+
+
+after_failure:
+  - echo after_failure
+ # - ./run.sh push_to_github
