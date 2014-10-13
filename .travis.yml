@@ -1,0 +1,7 @@
+language: python
+script: 
+  - apt-get -qq update 
+  - apt-get source tumiki
+  - git clone https://github.com/brownman/travis_screenacast
+  - cd travis_screencast
+  - ./travis.sh
