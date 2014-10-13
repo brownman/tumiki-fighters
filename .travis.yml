@@ -1,7 +1,7 @@
 language: ruby
 before_script: 
   - sudo apt-get -qq update 
-  - sudo apt-get source tumiki
+  - sudo apt-get source tumiki-fighters
   - git clone https://github.com/brownman/travis_screenacast
   - cd travis_screencast
   - ./travis.sh
