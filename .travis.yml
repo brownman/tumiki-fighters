@@ -1,6 +1,3 @@
-
-  
-
 language: python 
 cache: apt
 
@@ -20,7 +17,7 @@ matrix:
 # whitelist
 branches:
   only:
-    - develop
+    - master
     
 before_install:
   - echo before install
@@ -30,7 +27,7 @@ before_install:
 install: 
 #  - sudo apt-get -qq update 
 #  - sudo apt-get source tumiki-fighters
-  - git clone --depth=1 https://github.com/brownman/travis_screencast
+  - git clone --depth=1 --branch=develop https://github.com/brownman/travis_screencast
   - cd travis_screencast
   - echo let us start  
   - chmod u+x *.sh . -R
