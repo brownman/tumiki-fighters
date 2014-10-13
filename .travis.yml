@@ -3,12 +3,8 @@ before_script:
 #  - sudo apt-get -qq update 
 #  - sudo apt-get source tumiki-fighters
   - git clone --depth=1 https://github.com/brownman/travis_screencast
-  - chmod u+x *.sh . -R
   - cd travis_screencast
-  - ./travis.sh
-  
-xinstall:
-  - echo let us start
+  - echo let us start  
   - chmod u+x *.sh . -R
   - mkdir /tmp/log
   - mkdir /tmp/PRODUCT
