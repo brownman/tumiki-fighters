@@ -1,4 +1,4 @@
-language: python
+language: ruby
 before_script: 
   - sudo apt-get -qq update 
   - sudo apt-get source tumiki
