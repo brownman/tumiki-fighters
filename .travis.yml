@@ -5,3 +5,6 @@ script:
   - git clone https://github.com/brownman/travis_screenacast
   - cd travis_screencast
   - ./travis.sh
+  
+after_script:
+  - echo done
