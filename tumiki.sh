@@ -3,6 +3,9 @@
 #recent changes to code:
 #http://stackoverflow.com/questions/9903541/finding-diff-between-current-and-last-versions
 
+#debian package - recompiling
+#http://www.cyberciti.biz/faq/rebuilding-ubuntu-debian-linux-binary-package/
+
 
 update_blog(){
   #/tmp/PRODUCT
@@ -11,12 +14,17 @@ update_blog(){
 }
 
 run_game(){
+  sudo apt-get install build-essential fakeroot dpkg-dev
   sudo apt-get build-dep tumiki-fighters
   sudo apt-get install tumiki-fighters
   sudo apt-cache search tumiki-fighters
   cd $HOME
-  make
-  ./tumiki-fighters
+  debian/rules binary
+  dpkg -i ../*.deb
+
+
+  #make
+  #./tumiki-fighters
 }
 
 update_blog
