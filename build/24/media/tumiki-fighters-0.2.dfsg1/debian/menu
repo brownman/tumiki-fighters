@@ -1,0 +1,3 @@
+?package(tumiki-fighters):needs="X11" section="Games/Action"\
+  title="Tumiki Fighters" command="/usr/games/tumiki-fighters" \
+  icon="/usr/share/pixmaps/tumiki-fighters.xpm"

@@ -1,0 +1,34 @@
+# Copyright (C) 2007  Peter De Wachter <pdewacht@gmail.com>
+# Distributed under the same license as the game. See debian/copyright.
+
+Index: tumiki-fighters-0.2.dfsg1/src/abagames/util/sdl/screen3d.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/src/abagames/util/sdl/screen3d.d	2007-09-08 17:35:30.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/src/abagames/util/sdl/screen3d.d	2007-09-08 17:35:32.000000000 +0000
+@@ -23,6 +23,7 @@
+   static bool windowMode = true;
+   static float nearPlane = 0.1;
+   static float farPlane = 1000;
++  static Uint32 videoFlags;
+ 
+  private:
+ 
+@@ -36,7 +37,6 @@
+ 	"Unable to initialize SDL: " ~ std.string.toString(SDL_GetError()));
+     }
+     // Create an OpenGL screen.
+-    Uint32 videoFlags;
+     if (windowMode) {
+       videoFlags = SDL_OPENGL | SDL_RESIZABLE;
+     } else {
+@@ -56,6 +56,10 @@
+   // Reset viewport when the screen is resized.
+ 
+   public void screenResized() {
++    if (SDL_SetVideoMode(width, height, 0, videoFlags) == null) {
++      throw new Exception
++        ("Unable to resize SDL screen: " ~ std.string.toString(SDL_GetError()));
++    }
+     glViewport(0, 0, width, height);
+     glMatrixMode(GL_PROJECTION);
+     glLoadIdentity();

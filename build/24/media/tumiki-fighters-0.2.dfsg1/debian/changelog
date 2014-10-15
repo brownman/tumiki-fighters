@@ -1,0 +1,52 @@
+tumiki-fighters (0.2.dfsg1-5) unstable; urgency=low
+
+  * Team upload.
+  * Explicitly build with D version 1 (closes: #653093)
+  * Switch to format 3.0 (quilt) and drop build-dep on quilt
+  * Provide build-arch and build-indep targets
+  * Conforms to standards 3.9.2
+
+ -- Vincent Fourmond <fourmond@debian.org>  Sat, 07 Jan 2012 16:51:52 +0100
+
+tumiki-fighters (0.2.dfsg1-4) unstable; urgency=low
+
+  * Patched for changes in the D language. (Closes: #574327)
+
+ -- Peter De Wachter <pdewacht@gmail.com>  Wed, 17 Mar 2010 23:49:43 +0100
+
+tumiki-fighters (0.2.dfsg1-3) unstable; urgency=low
+
+  [ Miriam Ruiz ]
+  * Removed Homepage from long description.
+  * Replaced XS-DM-Upload-Allowed by DM-Upload-Allowed in debian/control.
+
+  [ Ansgar Burchardt ]
+  * Remove deprecated Encoding key from .desktop file
+
+  [ Peter De Wachter ]
+  * Fix "fixes.patch". The stage 4 boss fight now plays correctly.
+  * Update Standards-Version to 3.8.0: added patch target and README.source.
+
+ -- Peter De Wachter <pdewacht@gmail.com>  Thu, 17 Jul 2008 23:33:58 +0200
+
+tumiki-fighters (0.2.dfsg1-2) unstable; urgency=low
+
+  [ Barry deFreese ]
+  * Add watch file
+  * Add Homepage field to control
+  * Remove XS- from VCS fields
+
+  [ Peter De Wachter ]
+  * Fixed link command, patch from Arthur Loiret. (Closes: #458280, #458633)
+
+  [ Miriam Ruiz ]
+  * Added XS-DM-Upload-Allowed tag to control to allow uploads from Debian
+    Maintainers.
+
+ -- Miriam Ruiz <little_miry@yahoo.es>  Thu, 03 Jan 2008 12:12:59 +0000
+
+tumiki-fighters (0.2.dfsg1-1) unstable; urgency=low
+
+  * Initial release (Closes: #439713)
+
+ -- Miriam Ruiz <little_miry@yahoo.es>  Sat, 25 Aug 2007 19:58:40 +0000

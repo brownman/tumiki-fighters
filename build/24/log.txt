@@ -1,0 +1,510 @@
+build/24:
+total 0
+drwxrwxr-x 3 travis travis 360 Oct 15 07:23 media
+drwxrwxr-x 2 travis travis 280 Oct 15 07:23 log
+-rw-rw-r-- 1 travis travis   0 Oct 15 07:23 log.txt
+
+build/24/media:
+total 4864
+-rw-rw-r--  1 travis travis 4722939 Nov  7  2007 tumiki-fighters_0.2.dfsg1.orig.tar.gz
+-rw-rw-r--  1 travis travis   53550 Oct 15 07:23 session.mp4
+-rw-rw-r--  1 travis travis   40106 Oct 15 07:23 session.ogv
+-rw-rw-r--  1 travis travis   31766 Oct 15 07:23 session.webm
+-rw-rw-r--  1 travis travis   29988 Oct 15 07:23 35.png
+-rw-rw-r--  1 travis travis   29988 Oct 15 07:23 session.png
+-rw-rw-r--  1 travis travis   17088 Jan 22  2012 tumiki-fighters_0.2.dfsg1-5.debian.tar.gz
+-rw-rw-r--  1 travis travis    6344 Oct 15 07:23 38.png
+-rw-rw-r--  1 travis travis    1702 Jan 22  2012 tumiki-fighters_0.2.dfsg1-5.dsc
+drwxrwxr-x 14 travis travis     380 Oct 15 07:23 tumiki-fighters-0.2.dfsg1
+-rw-rw-r--  1 travis travis     210 Oct 15 07:23 41.png
+-rw-rw-r--  1 travis travis     210 Oct 15 07:23 44.png
+-rw-rw-r--  1 travis travis     210 Oct 15 07:23 47.png
+-rw-rw-r--  1 travis travis     210 Oct 15 07:23 51.png
+-rw-rw-r--  1 travis travis     210 Oct 15 07:23 54.png
+-rw-rw-r--  1 travis travis     210 Oct 15 07:23 57.png
+
+build/24/media/tumiki-fighters-0.2.dfsg1:
+total 28
+-rw-rw-r-- 1 travis travis 4751 May 14  2004 readme_e.txt
+-rw-rw-r-- 1 travis travis 4536 May 14  2004 readme.txt
+-rw-rw-r-- 1 travis travis 2620 May 14  2004 build.xml
+drwxrwxr-x 2 travis travis  600 Oct 15 07:23 import
+-rw-rw-r-- 1 travis travis  598 Oct 15 07:23 Makefile
+drwxrwxr-x 2 travis travis  420 May 15  2004 sounds
+drwxrwxr-x 4 travis travis  360 Jan  7  2012 debian
+drwxrwxr-x 8 travis travis  160 May 15  2004 barrage
+drwxrwxr-x 2 travis travis  140 May 15  2004 field
+drwxrwxr-x 2 travis travis  140 May 15  2004 stage
+drwxrwxr-x 7 travis travis  140 May 15  2004 tumiki
+drwxrwxr-x 5 travis travis  100 May 15  2004 enemy
+drwxrwxr-x 2 travis travis  100 Aug 26  2007 resource
+drwxrwxr-x 2 travis travis   80 Aug 26  2007 lib
+drwxrwxr-x 3 travis travis   80 Oct 15 07:23 src
+-rw-rw-r-- 1 travis travis   19 Apr  3  2004 tf_lowres.bat
+
+build/24/media/tumiki-fighters-0.2.dfsg1/import:
+total 272
+-rw-rw-r-- 1 travis travis 65655 Oct 15 07:23 opengl.d
+-rw-rw-r-- 1 travis travis 36419 Apr  3  2004 SDL_video.d
+-rw-rw-r-- 1 travis travis 22653 Oct 15 07:23 SDL_mixer.d
+-rw-rw-r-- 1 travis travis 15706 Oct 15 07:23 openglu.d
+-rw-rw-r-- 1 travis travis 11412 Oct 15 07:23 SDL_events.d
+-rw-rw-r-- 1 travis travis 10381 Apr  3  2004 SDL_audio.d
+-rw-rw-r-- 1 travis travis  7439 Oct 15 07:23 SDL_Keysym.d
+-rw-rw-r-- 1 travis travis  5229 Apr  3  2004 SDL_cdrom.d
+-rw-rw-r-- 1 travis travis  4692 Apr  3  2004 SDL_mutex.d
+-rw-rw-r-- 1 travis travis  4655 Apr  3  2004 SDL_joystick.d
+-rw-rw-r-- 1 travis travis  4058 Oct 15 07:23 SDL_mouse.d
+-rw-rw-r-- 1 travis travis  3950 Apr  3  2004 SDL_timer.d
+-rw-rw-r-- 1 travis travis  3941 Apr  3  2004 SDL_rwops.d
+-rw-rw-r-- 1 travis travis  3618 Oct 15 07:23 SDL_keyboard.d
+-rw-rw-r-- 1 travis travis  3608 Oct 15 07:23 SDL_endian.d
+-rw-rw-r-- 1 travis travis  3194 Oct 15 07:23 SDL.d
+-rw-rw-r-- 1 travis travis  2337 Oct 15 07:23 SDL_Version.d
+-rw-rw-r-- 1 travis travis  2282 Oct 15 07:23 SDL_syswm.d
+-rw-rw-r-- 1 travis travis  1896 Apr  3  2004 SDL_quit.d
+-rw-rw-r-- 1 travis travis  1831 Apr  3  2004 SDL_thread.d
+-rw-rw-r-- 1 travis travis  1640 Apr  3  2004 bulletml.d
+-rw-rw-r-- 1 travis travis  1603 Apr  3  2004 SDL_active.d
+-rw-rw-r-- 1 travis travis  1434 Apr  3  2004 SDL_byteorder.d
+-rw-rw-r-- 1 travis travis  1342 Apr  3  2004 SDL_error.d
+-rw-rw-r-- 1 travis travis  1315 Apr  3  2004 SDL_types.d
+-rw-rw-r-- 1 travis travis  1125 Apr  3  2004 SDL_mixer.obj
+-rw-rw-r-- 1 travis travis   904 Apr  3  2004 SDL_copying.d
+-rw-rw-r-- 1 travis travis   376 Oct 15 07:23 SDL_getenv.d
+
+build/24/media/tumiki-fighters-0.2.dfsg1/sounds:
+total 4560
+-rw-rw-r-- 1 travis travis 1042312 Apr  3  2004 we_are_tumiki_fighters.ogg
+-rw-rw-r-- 1 travis travis  829102 Apr  3  2004 just_over_the_horizon.ogg
+-rw-rw-r-- 1 travis travis  621685 Apr  3  2004 panic_on_meadow.ogg
+-rw-rw-r-- 1 travis travis  540645 Apr  3  2004 battle_over_the_junk_city.ogg
+-rw-rw-r-- 1 travis travis  539186 Apr  3  2004 here_comes_a_gigantic_toy.ogg
+-rw-rw-r-- 1 travis travis  296981 Apr  3  2004 return_to_home.ogg
+-rw-rw-r-- 1 travis travis  153566 Apr  3  2004 propeller.wav
+-rw-rw-r-- 1 travis travis  113274 Apr  3  2004 warning.wav
+-rw-rw-r-- 1 travis travis  104314 Apr  3  2004 boss_destroyed.wav
+-rw-rw-r-- 1 travis travis   96634 Apr  3  2004 extend.wav
+-rw-rw-r-- 1 travis travis   59770 Apr  3  2004 ship_destroyed.wav
+-rw-rw-r-- 1 travis travis   53498 Apr  3  2004 enemy_destroyed.wav
+-rw-rw-r-- 1 travis travis   46202 Apr 10  2004 stuck_destroyed.wav
+-rw-rw-r-- 1 travis travis   40314 Apr  3  2004 small_enemy_destroyed.wav
+-rw-rw-r-- 1 travis travis   27770 Apr 10  2004 stuck.wav
+-rw-rw-r-- 1 travis travis   19578 Apr  3  2004 enemy_damaged.wav
+-rw-rw-r-- 1 travis travis   19066 Apr 10  2004 stuck_bonus.wav
+-rw-rw-r-- 1 travis travis   18554 May 15  2004 stuck_bonus_pushin.wav
+-rw-rw-r-- 1 travis travis   15290 Apr  3  2004 ship_shot.wav
+
+build/24/media/tumiki-fighters-0.2.dfsg1/debian:
+total 56
+-rw-rw-r-- 1 travis travis 2673 Jul 17  2008 copyright
+-rw-rw-r-- 1 travis travis 2553 Dec 24  2007 tumiki-fighters.6
+-rw-rw-r-- 1 travis travis 1750 Jan  7  2012 control
+-rw-rw-r-- 1 travis travis 1655 Jan  7  2012 changelog
+-rwxrwxr-x 1 travis travis 1436 Jan  7  2012 rules
+-rw-rw-r-- 1 travis travis 1331 Aug 26  2007 tumiki-fighters.xpm
+-rw-rw-r-- 1 travis travis  285 Jul 17  2008 README.source
+drwxrwxr-x 2 travis travis  240 Jan  7  2012 patches
+-rw-rw-r-- 1 travis travis  239 Aug 28  2007 tumiki-fighters-data.install
+-rw-rw-r-- 1 travis travis  188 Mar 31  2009 tumiki-fighters.desktop
+-rw-rw-r-- 1 travis travis  175 Aug 26  2007 menu
+-rw-rw-r-- 1 travis travis  151 Dec 26  2007 watch
+-rw-rw-r-- 1 travis travis  100 Aug 28  2007 tumiki-fighters.install
+drwxrwxr-x 2 travis travis   60 Jan  7  2012 source
+-rw-rw-r-- 1 travis travis   24 Aug 26  2007 docs
+-rw-rw-r-- 1 travis travis    2 Aug 26  2007 compat
+
+build/24/media/tumiki-fighters-0.2.dfsg1/debian/patches:
+total 84
+-rw-rw-r-- 1 travis travis 28174 Sep  8  2007 imports.patch
+-rw-rw-r-- 1 travis travis 12967 Mar 17  2010 d1.043.patch
+-rw-rw-r-- 1 travis travis  6682 Jul 16  2008 fixes.patch
+-rw-rw-r-- 1 travis travis  4694 Sep  8  2007 directories.patch
+-rw-rw-r-- 1 travis travis  2072 Sep  8  2007 dotfile.patch
+-rw-rw-r-- 1 travis travis  1598 Sep  8  2007 windowed.patch
+-rw-rw-r-- 1 travis travis  1278 Sep  8  2007 window-resizing.patch
+-rw-rw-r-- 1 travis travis  1101 Sep  8  2007 gdc-0.24-semantics-for-version.patch
+-rw-rw-r-- 1 travis travis  1070 Jan  7  2012 makefile.patch
+-rw-rw-r-- 1 travis travis   160 Mar 17  2010 series
+
+build/24/media/tumiki-fighters-0.2.dfsg1/debian/source:
+total 4
+-rw-rw-r-- 1 travis travis 12 Jan  7  2012 format
+
+build/24/media/tumiki-fighters-0.2.dfsg1/barrage:
+total 0
+drwxrwxr-x 2 travis travis 600 May 15  2004 basic
+drwxrwxr-x 2 travis travis 260 May 15  2004 change
+drwxrwxr-x 2 travis travis 220 May 15  2004 technical
+drwxrwxr-x 2 travis travis 200 May 15  2004 spread
+drwxrwxr-x 2 travis travis 180 May 15  2004 move
+drwxrwxr-x 2 travis travis 160 May 15  2004 shot
+
+build/24/media/tumiki-fighters-0.2.dfsg1/barrage/basic:
+total 112
+-rw-rw-r-- 1 travis travis 1396 May 15  2004 wedge.xml
+-rw-rw-r-- 1 travis travis 1166 May 15  2004 twin.xml
+-rw-rw-r-- 1 travis travis  918 May 14  2004 nway_slow.xml
+-rw-rw-r-- 1 travis travis  867 May 14  2004 nway_fast.xml
+-rw-rw-r-- 1 travis travis  772 May 15  2004 nway_hard.xml
+-rw-rw-r-- 1 travis travis  770 Apr  3  2004 nway.xml
+-rw-rw-r-- 1 travis travis  740 May 14  2004 fan_weak.xml
+-rw-rw-r-- 1 travis travis  740 May 14  2004 fan.xml
+-rw-rw-r-- 1 travis travis  575 Apr  3  2004 whip_fix.xml
+-rw-rw-r-- 1 travis travis  573 Apr  3  2004 sideway_slow.xml
+-rw-rw-r-- 1 travis travis  536 Apr  3  2004 bar_accel.xml
+-rw-rw-r-- 1 travis travis  535 May 15  2004 bar_accel_weak.xml
+-rw-rw-r-- 1 travis travis  525 Apr  3  2004 whip.xml
+-rw-rw-r-- 1 travis travis  520 May 14  2004 3way.xml
+-rw-rw-r-- 1 travis travis  507 Apr  3  2004 nway_side.xml
+-rw-rw-r-- 1 travis travis  502 May 14  2004 3way_narrow.xml
+-rw-rw-r-- 1 travis travis  502 Apr  3  2004 bar.xml
+-rw-rw-r-- 1 travis travis  450 May 15  2004 2way_wide.xml
+-rw-rw-r-- 1 travis travis  450 May 14  2004 2way.xml
+-rw-rw-r-- 1 travis travis  382 Apr  3  2004 rand_speed.xml
+-rw-rw-r-- 1 travis travis  372 May 14  2004 rand_speed_side.xml
+-rw-rw-r-- 1 travis travis  354 Apr  3  2004 rand.xml
+-rw-rw-r-- 1 travis travis  350 Apr  3  2004 side1way.xml
+-rw-rw-r-- 1 travis travis  348 May 14  2004 side1way_fix04.xml
+-rw-rw-r-- 1 travis travis  336 Apr  3  2004 noaim.xml
+-rw-rw-r-- 1 travis travis  335 Apr  3  2004 noaim_rev.xml
+-rw-rw-r-- 1 travis travis  334 Apr  3  2004 shot.xml
+-rw-rw-r-- 1 travis travis  326 Apr  3  2004 aim.xml
+
+build/24/media/tumiki-fighters-0.2.dfsg1/barrage/change:
+total 44
+-rw-rw-r-- 1 travis travis 595 Apr  3  2004 slowdown.xml
+-rw-rw-r-- 1 travis travis 534 Apr  3  2004 0to1.xml
+-rw-rw-r-- 1 travis travis 528 Apr  3  2004 straight_rnd.xml
+-rw-rw-r-- 1 travis travis 483 Apr  3  2004 slow.xml
+-rw-rw-r-- 1 travis travis 482 May 14  2004 fast.xml
+-rw-rw-r-- 1 travis travis 480 May 14  2004 slowback.xml
+-rw-rw-r-- 1 travis travis 480 May 14  2004 slowfixed.xml
+-rw-rw-r-- 1 travis travis 477 May 14  2004 slowstop.xml
+-rw-rw-r-- 1 travis travis 475 Apr  3  2004 speed_rnd.xml
+-rw-rw-r-- 1 travis travis 353 Apr  3  2004 downaccel.xml
+-rw-rw-r-- 1 travis travis 329 Apr  3  2004 stop.xml
+
+build/24/media/tumiki-fighters-0.2.dfsg1/barrage/technical:
+total 36
+-rw-rw-r-- 1 travis travis 1528 Apr  3  2004 single_winder_fromside_rev.xml
+-rw-rw-r-- 1 travis travis 1364 May 14  2004 single_winder_fix.xml
+-rw-rw-r-- 1 travis travis 1351 Apr  3  2004 single_winder_sparse.xml
+-rw-rw-r-- 1 travis travis 1346 Apr  3  2004 single_winder.xml
+-rw-rw-r-- 1 travis travis 1182 Apr  3  2004 single_winder_fromside.xml
+-rw-rw-r-- 1 travis travis  949 Apr  3  2004 round_change_straight.xml
+-rw-rw-r-- 1 travis travis  883 May 15  2004 roundshot.xml
+-rw-rw-r-- 1 travis travis  863 Apr  3  2004 narrowing_winder.xml
+-rw-rw-r-- 1 travis travis  686 Apr  3  2004 bit.xml
+
+build/24/media/tumiki-fighters-0.2.dfsg1/barrage/spread:
+total 32
+-rw-rw-r-- 1 travis travis 831 Apr  3  2004 squirt.xml
+-rw-rw-r-- 1 travis travis 517 May 14  2004 roll2.xml
+-rw-rw-r-- 1 travis travis 510 Apr  3  2004 roll3way.xml
+-rw-rw-r-- 1 travis travis 468 Apr  3  2004 shotgun.xml
+-rw-rw-r-- 1 travis travis 447 Apr  3  2004 rand.xml
+-rw-rw-r-- 1 travis travis 444 May 14  2004 roll1.xml
+-rw-rw-r-- 1 travis travis 434 Apr  3  2004 roll1_fixdeg.xml
+-rw-rw-r-- 1 travis travis 426 Apr  3  2004 round.xml
+
+build/24/media/tumiki-fighters-0.2.dfsg1/barrage/move:
+total 28
+-rw-rw-r-- 1 travis travis 922 Apr  3  2004 bit.xml
+-rw-rw-r-- 1 travis travis 779 Apr  3  2004 back.xml
+-rw-rw-r-- 1 travis travis 673 Apr  3  2004 toleft.xml
+-rw-rw-r-- 1 travis travis 672 Apr  3  2004 toright.xml
+-rw-rw-r-- 1 travis travis 653 Apr  3  2004 toup.xml
+-rw-rw-r-- 1 travis travis 432 Apr  3  2004 slowdown.xml
+-rw-rw-r-- 1 travis travis 329 Apr  3  2004 str.xml
+
+build/24/media/tumiki-fighters-0.2.dfsg1/barrage/shot:
+total 24
+-rw-rw-r-- 1 travis travis 571 Apr  3  2004 slowaim.xml
+-rw-rw-r-- 1 travis travis 531 May 14  2004 side_rnd.xml
+-rw-rw-r-- 1 travis travis 513 May 14  2004 side.xml
+-rw-rw-r-- 1 travis travis 513 Apr  3  2004 vertical.xml
+-rw-rw-r-- 1 travis travis 461 Apr  3  2004 side_seq.xml
+-rw-rw-r-- 1 travis travis 385 Apr  3  2004 aim.xml
+
+build/24/media/tumiki-fighters-0.2.dfsg1/field:
+total 20
+-rw-rw-r-- 1 travis travis 653 Apr  3  2004 fld5.fld
+-rw-rw-r-- 1 travis travis 600 Apr  3  2004 fld3.fld
+-rw-rw-r-- 1 travis travis 484 Apr  3  2004 fld1.fld
+-rw-rw-r-- 1 travis travis 473 Apr  3  2004 fld4.fld
+-rw-rw-r-- 1 travis travis 454 Apr  3  2004 fld2.fld
+
+build/24/media/tumiki-fighters-0.2.dfsg1/stage:
+total 20
+-rw-rw-r-- 1 travis travis 1424 May 15  2004 stg4.stg
+-rw-rw-r-- 1 travis travis 1197 May 14  2004 stg5.stg
+-rw-rw-r-- 1 travis travis 1141 May 14  2004 stg3.stg
+-rw-rw-r-- 1 travis travis  972 May 15  2004 stg2.stg
+-rw-rw-r-- 1 travis travis  869 Apr  3  2004 stg1.stg
+
+build/24/media/tumiki-fighters-0.2.dfsg1/tumiki:
+total 0
+drwxrwxr-x 2 travis travis 800 May 15  2004 boss
+drwxrwxr-x 2 travis travis 620 May 15  2004 middle
+drwxrwxr-x 2 travis travis 540 May 15  2004 field
+drwxrwxr-x 2 travis travis 160 May 15  2004 small
+drwxrwxr-x 2 travis travis  60 May 15  2004 myship
+
+build/24/media/tumiki-fighters-0.2.dfsg1/tumiki/boss:
+total 152
+-rw-rw-r-- 1 travis travis 856 May 14  2004 b5m.tmk
+-rw-rw-r-- 1 travis travis 698 May 15  2004 b4m.tmk
+-rw-rw-r-- 1 travis travis 660 May 15  2004 b3m.tmk
+-rw-rw-r-- 1 travis travis 523 May 15  2004 b2p1.tmk
+-rw-rw-r-- 1 travis travis 522 May 15  2004 b5p2.tmk
+-rw-rw-r-- 1 travis travis 505 Apr  3  2004 m3m.tmk
+-rw-rw-r-- 1 travis travis 491 May 15  2004 b5p22.tmk
+-rw-rw-r-- 1 travis travis 481 May 15  2004 b3p1.tmk
+-rw-rw-r-- 1 travis travis 458 May 15  2004 b2p2.tmk
+-rw-rw-r-- 1 travis travis 432 May 15  2004 b5p1.tmk
+-rw-rw-r-- 1 travis travis 423 May 15  2004 m512m.tmk
+-rw-rw-r-- 1 travis travis 414 May 15  2004 m522m.tmk
+-rw-rw-r-- 1 travis travis 410 May 15  2004 m52m.tmk
+-rw-rw-r-- 1 travis travis 377 May 15  2004 m51m.tmk
+-rw-rw-r-- 1 travis travis 353 May 15  2004 b4p2.tmk
+-rw-rw-r-- 1 travis travis 345 Apr  3  2004 b1m.tmk
+-rw-rw-r-- 1 travis travis 343 May 14  2004 m1p1.tmk
+-rw-rw-r-- 1 travis travis 339 May 14  2004 b3p2.tmk
+-rw-rw-r-- 1 travis travis 296 May 15  2004 b4p1.tmk
+-rw-rw-r-- 1 travis travis 293 May 15  2004 m4m.tmk
+-rw-rw-r-- 1 travis travis 292 May 15  2004 m2m.tmk
+-rw-rw-r-- 1 travis travis 271 May 14  2004 b1p2.tmk
+-rw-rw-r-- 1 travis travis 270 May 15  2004 b1p1.tmk
+-rw-rw-r-- 1 travis travis 258 May 15  2004 m4p12.tmk
+-rw-rw-r-- 1 travis travis 254 Apr  3  2004 b1p32.tmk
+-rw-rw-r-- 1 travis travis 254 May 15  2004 m4p1.tmk
+-rw-rw-r-- 1 travis travis 251 Apr  3  2004 b1p3.tmk
+-rw-rw-r-- 1 travis travis 248 May 14  2004 b2m.tmk
+-rw-rw-r-- 1 travis travis 240 May 14  2004 m1m.tmk
+-rw-rw-r-- 1 travis travis 212 May 15  2004 m2p1.tmk
+-rw-rw-r-- 1 travis travis 209 May 15  2004 b4p3.tmk
+-rw-rw-r-- 1 travis travis 164 Apr  3  2004 b4p4.tmk
+-rw-rw-r-- 1 travis travis 152 May 15  2004 m3p14.tmk
+-rw-rw-r-- 1 travis travis 151 May 15  2004 m3p12.tmk
+-rw-rw-r-- 1 travis travis 151 May 15  2004 m3p13.tmk
+-rw-rw-r-- 1 travis travis 150 May 15  2004 m3p1.tmk
+-rw-rw-r-- 1 travis travis 147 May 14  2004 m1p22.tmk
+-rw-rw-r-- 1 travis travis 146 May 14  2004 m1p2.tmk
+
+build/24/media/tumiki-fighters-0.2.dfsg1/tumiki/middle:
+total 116
+-rw-rw-r-- 1 travis travis 618 May 14  2004 b3m.tmk
+-rw-rw-r-- 1 travis travis 571 Apr  3  2004 b2m.tmk
+-rw-rw-r-- 1 travis travis 424 May 15  2004 b7m.tmk
+-rw-rw-r-- 1 travis travis 386 May 15  2004 b5m.tmk
+-rw-rw-r-- 1 travis travis 351 Apr  3  2004 b5p1.tmk
+-rw-rw-r-- 1 travis travis 324 May 14  2004 m5m.tmk
+-rw-rw-r-- 1 travis travis 302 Apr  3  2004 b6p12.tmk
+-rw-rw-r-- 1 travis travis 300 Apr  3  2004 b6p1.tmk
+-rw-rw-r-- 1 travis travis 281 Apr  3  2004 b6m.tmk
+-rw-rw-r-- 1 travis travis 278 May 14  2004 m1m.tmk
+-rw-rw-r-- 1 travis travis 256 May 15  2004 b4p1.tmk
+-rw-rw-r-- 1 travis travis 246 May 15  2004 b1p1.tmk
+-rw-rw-r-- 1 travis travis 246 May 15  2004 b1p2.tmk
+-rw-rw-r-- 1 travis travis 246 Apr  3  2004 b3p1.tmk
+-rw-rw-r-- 1 travis travis 226 Apr  3  2004 b4m.tmk
+-rw-rw-r-- 1 travis travis 195 May 15  2004 m2p12.tmk
+-rw-rw-r-- 1 travis travis 191 May 15  2004 m2p1.tmk
+-rw-rw-r-- 1 travis travis 191 May 14  2004 m4p1.tmk
+-rw-rw-r-- 1 travis travis 172 May 14  2004 m4m.tmk
+-rw-rw-r-- 1 travis travis 167 Apr  3  2004 b1m.tmk
+-rw-rw-r-- 1 travis travis 167 Apr  3  2004 m5p1.tmk
+-rw-rw-r-- 1 travis travis 166 Apr  3  2004 m3p12.tmk
+-rw-rw-r-- 1 travis travis 166 Apr  3  2004 m3p1.tmk
+-rw-rw-r-- 1 travis travis 166 Apr  3  2004 m5p12.tmk
+-rw-rw-r-- 1 travis travis 117 Apr  3  2004 m1p3.tmk
+-rw-rw-r-- 1 travis travis 116 Apr  3  2004 m1p2.tmk
+-rw-rw-r-- 1 travis travis 112 Apr  3  2004 m1p1.tmk
+-rw-rw-r-- 1 travis travis  92 Apr  3  2004 m3m.tmk
+-rw-rw-r-- 1 travis travis  57 Apr  3  2004 m2m.tmk
+
+build/24/media/tumiki-fighters-0.2.dfsg1/tumiki/field:
+total 100
+-rw-rw-r-- 1 travis travis 221 Apr  3  2004 o21.tmk
+-rw-rw-r-- 1 travis travis 205 Apr  3  2004 o37.tmk
+-rw-rw-r-- 1 travis travis 204 Apr  3  2004 o372.tmk
+-rw-rw-r-- 1 travis travis 190 Apr  3  2004 o41.tmk
+-rw-rw-r-- 1 travis travis 180 Apr  3  2004 o15.tmk
+-rw-rw-r-- 1 travis travis 175 Apr  3  2004 o36.tmk
+-rw-rw-r-- 1 travis travis 174 Apr  3  2004 o362.tmk
+-rw-rw-r-- 1 travis travis 128 Apr  3  2004 o22.tmk
+-rw-rw-r-- 1 travis travis 108 Apr  3  2004 o32.tmk
+-rw-rw-r-- 1 travis travis 104 Apr  3  2004 o42.tmk
+-rw-rw-r-- 1 travis travis 103 Apr  3  2004 o33.tmk
+-rw-rw-r-- 1 travis travis  95 Apr  3  2004 o14.tmk
+-rw-rw-r-- 1 travis travis  92 Apr  3  2004 o23.tmk
+-rw-rw-r-- 1 travis travis  92 Apr  3  2004 o24.tmk
+-rw-rw-r-- 1 travis travis  87 Apr  3  2004 o12.tmk
+-rw-rw-r-- 1 travis travis  86 Apr  3  2004 o43.tmk
+-rw-rw-r-- 1 travis travis  84 Apr  3  2004 o51.tmk
+-rw-rw-r-- 1 travis travis  82 Apr  3  2004 o52.tmk
+-rw-rw-r-- 1 travis travis  75 Apr  3  2004 o34.tmk
+-rw-rw-r-- 1 travis travis  64 Apr  3  2004 o13.tmk
+-rw-rw-r-- 1 travis travis  60 Apr  3  2004 o11.tmk
+-rw-rw-r-- 1 travis travis  58 Apr  3  2004 o31.tmk
+-rw-rw-r-- 1 travis travis  56 Apr  3  2004 o35.tmk
+-rw-rw-r-- 1 travis travis  55 Apr  3  2004 o53.tmk
+-rw-rw-r-- 1 travis travis  33 Apr  3  2004 o25.tmk
+
+build/24/media/tumiki-fighters-0.2.dfsg1/tumiki/small:
+total 24
+-rw-rw-r-- 1 travis travis 250 Apr  3  2004 s3.tmk
+-rw-rw-r-- 1 travis travis 217 Apr  3  2004 s4.tmk
+-rw-rw-r-- 1 travis travis 210 May 14  2004 s6.tmk
+-rw-rw-r-- 1 travis travis 201 Apr  3  2004 s1.tmk
+-rw-rw-r-- 1 travis travis 197 Apr  3  2004 s2.tmk
+-rw-rw-r-- 1 travis travis 187 Apr  3  2004 s5.tmk
+
+build/24/media/tumiki-fighters-0.2.dfsg1/tumiki/myship:
+total 4
+-rw-rw-r-- 1 travis travis 264 Apr  3  2004 ship.tmk
+
+build/24/media/tumiki-fighters-0.2.dfsg1/enemy:
+total 0
+drwxrwxr-x 2 travis travis 320 May 15  2004 middle
+drwxrwxr-x 2 travis travis 300 May 15  2004 boss
+drwxrwxr-x 2 travis travis 160 May 15  2004 small
+
+build/24/media/tumiki-fighters-0.2.dfsg1/enemy/middle:
+total 56
+-rw-rw-r-- 1 travis travis 159 Apr  3  2004 m6.enm
+-rw-rw-r-- 1 travis travis 117 Apr  3  2004 m2.enm
+-rw-rw-r-- 1 travis travis 112 Apr  3  2004 m5.enm
+-rw-rw-r-- 1 travis travis 111 Apr  3  2004 m3.enm
+-rw-rw-r-- 1 travis travis 109 Apr  3  2004 b1.enm
+-rw-rw-r-- 1 travis travis 109 Apr  3  2004 b8.enm
+-rw-rw-r-- 1 travis travis 105 Apr  3  2004 b6.enm
+-rw-rw-r-- 1 travis travis  77 Apr  3  2004 m1.enm
+-rw-rw-r-- 1 travis travis  73 Apr  3  2004 m4.enm
+-rw-rw-r-- 1 travis travis  71 May 14  2004 b3.enm
+-rw-rw-r-- 1 travis travis  71 Apr  3  2004 b4.enm
+-rw-rw-r-- 1 travis travis  71 Apr  3  2004 b5.enm
+-rw-rw-r-- 1 travis travis  36 Apr  3  2004 b2.enm
+-rw-rw-r-- 1 travis travis  36 Apr  3  2004 b7.enm
+
+build/24/media/tumiki-fighters-0.2.dfsg1/enemy/boss:
+total 52
+-rw-rw-r-- 1 travis travis 306 May 15  2004 b4.enm
+-rw-rw-r-- 1 travis travis 194 Apr  3  2004 b1.enm
+-rw-rw-r-- 1 travis travis 188 Apr  3  2004 b5.enm
+-rw-rw-r-- 1 travis travis 188 Apr  3  2004 m3.enm
+-rw-rw-r-- 1 travis travis 186 May 14  2004 b3.enm
+-rw-rw-r-- 1 travis travis 169 May 14  2004 b2.enm
+-rw-rw-r-- 1 travis travis 157 Apr  3  2004 m1.enm
+-rw-rw-r-- 1 travis travis 116 May 15  2004 m4.enm
+-rw-rw-r-- 1 travis travis  89 Apr  3  2004 m2.enm
+-rw-rw-r-- 1 travis travis  46 Apr  3  2004 m522.enm
+-rw-rw-r-- 1 travis travis  45 May 14  2004 m512.enm
+-rw-rw-r-- 1 travis travis  45 Apr  3  2004 m52.enm
+-rw-rw-r-- 1 travis travis  44 May 14  2004 m51.enm
+
+build/24/media/tumiki-fighters-0.2.dfsg1/enemy/small:
+total 24
+-rw-rw-r-- 1 travis travis 35 Apr  3  2004 s1.enm
+-rw-rw-r-- 1 travis travis 35 Apr  3  2004 s2.enm
+-rw-rw-r-- 1 travis travis 35 Apr  3  2004 s3.enm
+-rw-rw-r-- 1 travis travis 35 Apr  3  2004 s4.enm
+-rw-rw-r-- 1 travis travis 35 Apr  3  2004 s5.enm
+-rw-rw-r-- 1 travis travis 35 Apr  3  2004 s6.enm
+
+build/24/media/tumiki-fighters-0.2.dfsg1/resource:
+total 16
+-rw-rw-r-- 1 travis travis 4150 Apr  3  2004 tf.ico
+-rw-rw-r-- 1 travis travis   31 Apr  3  2004 tf.def
+-rw-rw-r-- 1 travis travis   26 Apr  3  2004 tf.rc
+
+build/24/media/tumiki-fighters-0.2.dfsg1/lib:
+total 84
+-rw-rw-r-- 1 travis travis 65745 Apr  3  2004 opengl.d
+-rw-rw-r-- 1 travis travis 15770 Apr  3  2004 openglu.d
+
+build/24/media/tumiki-fighters-0.2.dfsg1/src:
+total 4
+-rw-rw-r-- 1 travis travis 197 Oct 15 07:23 dirent.d
+drwxrwxr-x 4 travis travis  80 May 15  2004 abagames
+
+build/24/media/tumiki-fighters-0.2.dfsg1/src/abagames:
+total 0
+drwxrwxr-x 2 travis travis 580 Oct 15 07:23 tf
+drwxrwxr-x 4 travis travis 240 Oct 15 07:23 util
+
+build/24/media/tumiki-fighters-0.2.dfsg1/src/abagames/tf:
+total 220
+-rw-rw-r-- 1 travis travis 17558 May 14  2004 gamemanager.d
+-rw-rw-r-- 1 travis travis 17438 May 14  2004 tumiki.d
+-rw-rw-r-- 1 travis travis 15824 Oct 15 07:23 letterrender.d
+-rw-rw-r-- 1 travis travis 15088 Oct 15 07:23 enemy.d
+-rw-rw-r-- 1 travis travis 12989 May 14  2004 stuckenemy.d
+-rw-rw-r-- 1 travis travis  9222 Oct 15 07:23 ship.d
+-rw-rw-r-- 1 travis travis  9000 May 14  2004 bulletactor.d
+-rw-rw-r-- 1 travis travis  8746 Oct 15 07:23 stagemanager.d
+-rw-rw-r-- 1 travis travis  8224 Oct 15 07:23 field.d
+-rw-rw-r-- 1 travis travis  7007 May 14  2004 bulletactorpool.d
+-rw-rw-r-- 1 travis travis  6602 May 15  2004 splinter.d
+-rw-rw-r-- 1 travis travis  6550 Oct 15 07:23 tumikiset.d
+-rw-rw-r-- 1 travis travis  3872 Oct 15 07:23 enemyspec.d
+-rw-rw-r-- 1 travis travis  3723 May 14  2004 attractmanager.d
+-rw-rw-r-- 1 travis travis  3335 Oct 15 07:23 boot.d
+-rw-rw-r-- 1 travis travis  2899 May 14  2004 mobileletter.d
+-rw-rw-r-- 1 travis travis  2831 May 14  2004 soundmanager.d
+-rw-rw-r-- 1 travis travis  2668 May 14  2004 particle.d
+-rw-rw-r-- 1 travis travis  2385 Oct 15 07:23 prefmanager.d
+-rw-rw-r-- 1 travis travis  2142 May 14  2004 damagegauge.d
+-rw-rw-r-- 1 travis travis  1958 May 14  2004 fragment.d
+-rw-rw-r-- 1 travis travis  1683 May 15  2004 bulletinst.d
+-rw-rw-r-- 1 travis travis  1407 Oct 15 07:23 barragemanager.d
+-rw-rw-r-- 1 travis travis  1298 May 14  2004 screen.d
+-rw-rw-r-- 1 travis travis  1207 May 14  2004 scoresign.d
+-rw-rw-r-- 1 travis travis   856 May 14  2004 morphbullet.d
+-rw-rw-r-- 1 travis travis   518 May 14  2004 bullettarget.d
+
+build/24/media/tumiki-fighters-0.2.dfsg1/src/abagames/util:
+total 36
+-rw-rw-r-- 1 travis travis 7658 May 14  2004 rand.d
+-rw-rw-r-- 1 travis travis 2388 May 14  2004 vector.d
+-rw-rw-r-- 1 travis travis 1770 Oct 15 07:23 logger.d
+-rw-rw-r-- 1 travis travis 1265 May 14  2004 actorpool.d
+-rw-rw-r-- 1 travis travis  693 Apr  3  2004 iterator.d
+-rw-rw-r-- 1 travis travis  685 May 14  2004 csv.d
+-rw-rw-r-- 1 travis travis  668 May 14  2004 actor.d
+-rw-rw-r-- 1 travis travis  304 May 14  2004 prefmanager.d
+drwxrwxr-x 2 travis travis  220 Oct 15 07:23 sdl
+drwxrwxr-x 2 travis travis   80 May 15  2004 bulletml
+
+build/24/media/tumiki-fighters-0.2.dfsg1/src/abagames/util/sdl:
+total 36
+-rw-rw-r-- 1 travis travis 3703 Oct 15 07:23 sound.d
+-rw-rw-r-- 1 travis travis 3244 Oct 15 07:23 screen3d.d
+-rw-rw-r-- 1 travis travis 3016 May 14  2004 pad.d
+-rw-rw-r-- 1 travis travis 2659 May 14  2004 mainloop.d
+-rw-rw-r-- 1 travis travis 1458 Oct 15 07:23 texture.d
+-rw-rw-r-- 1 travis travis 1002 May 14  2004 gamemanager.d
+-rw-rw-r-- 1 travis travis  330 May 14  2004 screen.d
+-rw-rw-r-- 1 travis travis  313 Apr  3  2004 sdlexception.d
+-rw-rw-r-- 1 travis travis  290 May 14  2004 input.d
+
+build/24/media/tumiki-fighters-0.2.dfsg1/src/abagames/util/bulletml:
+total 12
+-rw-rw-r-- 1 travis travis 4197 May 14  2004 bullet.d
+-rw-rw-r-- 1 travis travis  533 May 14  2004 bulletsmanager.d
+
+build/24/log:
+total 60
+-rw-rw-r-- 1 travis travis 13610 Oct 15 07:23 record.err
+-rw-rw-r-- 1 travis travis  5467 Oct 15 07:23 x11.err
+-rw-rw-r-- 1 travis travis  1482 Oct 15 07:23 record.out
+-rw-rw-r-- 1 travis travis  1266 Oct 15 07:23 task.out
+-rw-rw-r-- 1 travis travis   856 Oct 15 07:23 task.err
+-rw-rw-r-- 1 travis travis   648 Oct 15 07:23 capture.err
+-rw-rw-r-- 1 travis travis   329 Oct 15 07:23 debug_screen.err
+-rw-rw-r-- 1 travis travis   172 Oct 15 07:23 debug_screen.out
+-rw-rw-r-- 1 travis travis    29 Oct 15 07:23 push_to_github.out
+-rw-rw-r-- 1 travis travis    16 Oct 15 07:23 capture.out
+-rw-rw-r-- 1 travis travis     6 Oct 15 07:23 x11.out
+-rw-rw-r-- 1 travis travis     0 Oct 15 07:23 push_to_github.err

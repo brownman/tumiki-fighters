@@ -1,0 +1,4 @@
+version=3
+
+opts="uversionmangle=s/_/\./,dversionmangle=s/[+.]dfsg(.?\d+)?$//" \
+http://www.asahi-net.or.jp/~cs8k-cyu/windows/tf_e.html tf([\d_]+)\.zip

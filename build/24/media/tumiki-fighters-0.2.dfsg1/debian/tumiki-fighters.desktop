@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Tumiki Fighters
+GenericName=
+Comment=Kenta Cho's Tumiki Fighters
+Icon=tumiki-fighters
+Exec=tumiki-fighters
+Terminal=false
+Categories=Game;ArcadeGame;
