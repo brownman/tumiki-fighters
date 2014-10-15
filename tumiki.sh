@@ -30,7 +30,7 @@ run_game(){
 
 
   #make
-  #./tumiki-fighters
+  tumiki-fighters
 }
 
 update_blog
