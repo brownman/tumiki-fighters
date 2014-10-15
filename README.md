@@ -2,6 +2,6 @@
 
 tumiki-fighters
 ===============
+- porting tumiki to android
 
-porting tumiki to android
-[website](https://github.com/brownman/tumiki-fighters/tree/gh-pages)
+- [website](https://github.com/brownman/tumiki-fighters/tree/gh-pages)
