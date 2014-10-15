@@ -26,7 +26,7 @@ run_game(){
   #cd $HOME
   #./debian/rules binary
   dpkg-buildpackage -B
-#  sudo dpkg -i ../*.deb
+  sudo dpkg -i ../*.deb
 
 
   #make
