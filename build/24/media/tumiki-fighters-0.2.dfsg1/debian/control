@@ -1,0 +1,39 @@
+Source: tumiki-fighters
+Section: games
+Priority: extra
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders: Miriam Ruiz <little_miry@yahoo.es>,
+  Peter De Wachter <pdewacht@gmail.com>,
+  Barry deFreese <bddebian@comcast.net>
+Build-Depends: debhelper (>= 5), gdc-v1,
+ libglu1-mesa-dev | libglu-dev, libgl1-mesa-dev | libgl-dev,
+ libsdl1.2-dev, libsdl-mixer1.2-dev, libbulletml-dev
+Standards-Version: 3.9.2
+Homepage: http://www.asahi-net.or.jp/~cs8k-cyu/windows/tf_e.html
+Vcs-Svn: svn://svn.debian.org/svn/pkg-games/packages/trunk/tumiki-fighters/
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-games/packages/trunk/tumiki-fighters/?op=log
+DM-Upload-Allowed: yes
+
+Package: tumiki-fighters
+Architecture: any
+Depends: tumiki-fighters-data (= ${source:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: sticky 2D shooter
+ Tumiki Fighters brings a different twist to the side-scrolling shooter genre.
+ With simple 3D graphics, the player has to control a ship and shoot down the
+ enemies. The player can swoop in and attach the wreckage to its own hull for
+ bonus points and protection from enemy attacks. .
+ .
+ Tumiki Fighters is another gem among many by Kenta Cho.
+
+Package: tumiki-fighters-data
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: tumiki-fighters
+Description: sticky 2D shooter - game data
+ Tumiki Fighters brings a different twist to the side-scrolling shooter genre.
+ With simple 3D graphics, the player has to control a ship and shoot down the
+ enemies. The player can swoop in and attach the wreckage to its own hull for
+ bonus points and protection from enemy attacks. .
+ .
+ This package includes the architecture-independent data for the Kenta Cho's
+ game Tumiki Fighters.

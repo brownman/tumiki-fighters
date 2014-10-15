@@ -1,0 +1,64 @@
+# Copyright (C) 2007  Peter De Wachter <pdewacht@gmail.com>
+# Distributed under the same license as the game. See debian/copyright.
+
+Index: tumiki-fighters-0.2.dfsg1/src/abagames/tf/prefmanager.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/src/abagames/tf/prefmanager.d	2004-05-14 23:35:38.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/src/abagames/tf/prefmanager.d	2007-09-08 17:35:31.000000000 +0000
+@@ -6,6 +6,8 @@
+ module abagames.tf.prefmanager;
+ 
+ private import std.stream;
++private import std.string;
++private import std.c.stdlib;
+ private import abagames.util.prefmanager;
+ 
+ /**
+@@ -14,7 +16,7 @@
+ public class PrefManager: abagames.util.prefmanager.PrefManager {
+  public:
+   static const int VERSION_NUM = 20;
+-  static const char[] PREF_FILE = "tf.prf";
++  static const char[] PREF_FILE = ".tumiki-fighters.prf";
+   static const int RANKING_NUM = 10;
+   static const int DEFAULT_HISCORE = 10000;
+   RankingItem[RANKING_NUM] ranking;
+@@ -24,6 +26,13 @@
+       ri = new RankingItem;
+   }
+ 
++  public static char[] home_dir() {
++    char * home = getenv("HOME");
++    if (home is null)
++      throw new Error("HOME environment variable is not defined");
++    return std.string.toString(home);
++  }
++
+   private void init() {
+     int sc = DEFAULT_HISCORE * RANKING_NUM;
+     foreach (RankingItem ri; ranking) {
+@@ -37,13 +46,13 @@
+     auto File fd = new File;
+     try {
+       int ver;
+-      fd.open(PREF_FILE);
++      fd.open(home_dir() ~ "/" ~ PREF_FILE);
+       fd.read(ver);
+       if (ver != VERSION_NUM)
+ 	throw new Error("Wrong version num");
+       foreach (RankingItem ri; ranking)
+ 	ri.load(fd);
+-    } catch (Error e) {
++    } catch (Exception e) {
+       init();
+     } finally {
+       fd.close();
+@@ -52,7 +61,7 @@
+ 
+   public void save() {
+     auto File fd = new File;
+-    fd.create(PREF_FILE);
++    fd.create(home_dir() ~ "/" ~ PREF_FILE);
+     fd.write(VERSION_NUM);
+     foreach (RankingItem ri; ranking)
+       ri.save(fd);

@@ -1,0 +1,103 @@
+# Copyright (C) 2007  Miriam Ruiz <little_miry@yahoo.es>
+# Distributed under the same license as the game. See debian/copyright.
+
+Index: tumiki-fighters-0.2.dfsg1/src/abagames/tf/barragemanager.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/src/abagames/tf/barragemanager.d	2007-09-08 19:38:19.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/src/abagames/tf/barragemanager.d	2007-09-08 19:39:10.000000000 +0000
+@@ -18,7 +18,7 @@
+ public class BarrageManager {
+  private:
+   static BulletMLParserTinyXML *parser[char[]];
+-  static const char[] BARRAGE_DIR_NAME = "barrage";
++  static const char[] BARRAGE_DIR_NAME = "/usr/share/games/tumiki-fighters/barrage";
+ 
+   public static void loadBulletMLs() {
+     char[][] dirs = listdir(BARRAGE_DIR_NAME);
+Index: tumiki-fighters-0.2.dfsg1/src/abagames/util/sdl/sound.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/src/abagames/util/sdl/sound.d	2007-09-08 19:38:19.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/src/abagames/util/sdl/sound.d	2007-09-08 19:39:10.000000000 +0000
+@@ -62,7 +62,7 @@
+ public class Music: Sound {
+  public:
+   static int fadeOutSpeed = 1280;
+-  static char[] dir = "sounds/";
++  static char[] dir = "/usr/share/games/tumiki-fighters/sounds/";
+  private:
+   Mix_Music* music;
+ 
+@@ -122,7 +122,7 @@
+ 
+ public class Chunk: Sound {
+  public:
+-  static char[] dir = "sounds/";
++  static char[] dir = "/usr/share/games/tumiki-fighters/sounds/";
+  private:
+   Mix_Chunk* chunk;
+   int chunkChannel;
+Index: tumiki-fighters-0.2.dfsg1/src/abagames/util/sdl/texture.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/src/abagames/util/sdl/texture.d	2007-09-08 19:38:19.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/src/abagames/util/sdl/texture.d	2007-09-08 19:39:10.000000000 +0000
+@@ -15,7 +15,7 @@
+  */
+ public class Texture {
+  public:
+-  static char[] imagesDir = "images/";
++  static char[] imagesDir = "/usr/share/games/tumiki-fighters/images/";
+ 
+  private:
+   GLuint num;
+Index: tumiki-fighters-0.2.dfsg1/src/abagames/tf/enemyspec.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/src/abagames/tf/enemyspec.d	2007-09-08 19:38:28.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/src/abagames/tf/enemyspec.d	2007-09-08 19:39:10.000000000 +0000
+@@ -22,7 +22,7 @@
+   float sizeXm, sizeXp, sizeYm, sizeYp;
+  private:
+   static EnemySpec[char[]] instances;
+-  static const char[] ENEMYSPEC_DIR_NAME = "enemy";
++  static const char[] ENEMYSPEC_DIR_NAME = "/usr/share/games/tumiki-fighters/enemy";
+ 
+   // Initialize EnemySpec with the array.
+   // Tumiki file name(main),
+Index: tumiki-fighters-0.2.dfsg1/src/abagames/tf/field.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/src/abagames/tf/field.d	2007-09-08 19:38:19.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/src/abagames/tf/field.d	2007-09-08 19:39:10.000000000 +0000
+@@ -249,7 +249,7 @@
+   float mtr, mtg, mtb;
+   float mrr, mrg, mrb;
+  private:
+-  static const char[] FIELD_DIR_NAME = "field";
++  static const char[] FIELD_DIR_NAME = "/usr/share/games/tumiki-fighters/field";
+   
+   // Initialize FieldPattern with the array.
+   // randSeed, scrollSpeed,
+Index: tumiki-fighters-0.2.dfsg1/src/abagames/tf/stagemanager.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/src/abagames/tf/stagemanager.d	2007-09-08 19:38:19.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/src/abagames/tf/stagemanager.d	2007-09-08 19:39:10.000000000 +0000
+@@ -171,7 +171,7 @@
+   long randSeed;
+   int warningCnt;
+  private:
+-  static const char[] STAGE_DIR_NAME = "stage";
++  static const char[] STAGE_DIR_NAME = "/usr/share/games/tumiki-fighters/stage";
+   static int[char[]] posTypeStr;
+ 
+   public static this() {
+Index: tumiki-fighters-0.2.dfsg1/src/abagames/tf/tumikiset.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/src/abagames/tf/tumikiset.d	2007-09-08 19:39:18.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/src/abagames/tf/tumikiset.d	2007-09-08 19:39:24.000000000 +0000
+@@ -29,7 +29,7 @@
+   float sizeXm, sizeXp, sizeYm, sizeYp, size;
+  private:
+   static TumikiSet[char[]] instances;
+-  static const char[] TUMIKI_DIR_NAME = "tumiki";
++  static const char[] TUMIKI_DIR_NAME = "/usr/share/games/tumiki-fighters/tumiki";
+   static const float BULLET_SPEED_RATIO = 1.2;
+   static int[char[]] shapeStr;
+   static char[][] SHAPE_STR = 

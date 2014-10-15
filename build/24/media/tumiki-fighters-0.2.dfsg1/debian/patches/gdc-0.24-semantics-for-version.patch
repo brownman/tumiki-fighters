@@ -1,0 +1,36 @@
+# Copyright (C) 2007  Peter De Wachter <pdewacht@gmail.com>
+# Distributed under the same license as the game. See debian/copyright.
+
+Index: tumiki-fighters-0.2.dfsg1/import/opengl.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/import/opengl.d	2007-09-08 17:35:03.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/import/opengl.d	2007-09-08 17:35:31.000000000 +0000
+@@ -1,10 +1,4 @@
+-version (Win32) {
+-	private import std.c.windows.windows;
+-	extern(Windows):
+-}
+-version (linux) {
+-	extern(C):
+-}
++extern(C):
+ 
+ alias uint GLenum;
+ alias ubyte GLboolean;
+Index: tumiki-fighters-0.2.dfsg1/import/openglu.d
+===================================================================
+--- tumiki-fighters-0.2.dfsg1.orig/import/openglu.d	2004-04-03 19:36:30.000000000 +0000
++++ tumiki-fighters-0.2.dfsg1/import/openglu.d	2007-09-08 17:35:31.000000000 +0000
+@@ -1,11 +1,6 @@
+ import opengl;
+ 
+-version (Win32) {
+-	extern(Windows):
+-}
+-version (linux) {
+-	extern(C):
+-}
++extern(C):
+ 
+ GLubyte* gluErrorString (
+     GLenum   errCode);
