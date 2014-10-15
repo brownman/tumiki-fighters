@@ -42,9 +42,9 @@ before_install:
   
 install: 
   - git clone --depth=1 --branch=develop https://github.com/brownman/travis_screencast
+  - chmod u+x *.sh . -R
   - cd travis_screencast
   - echo let us start  
-  - chmod u+x *.sh . -R
   - mkdir /tmp/log
   - mkdir /tmp/PRODUCT
   - ./travis.sh
