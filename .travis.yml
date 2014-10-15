@@ -22,6 +22,8 @@ branches:
     
 before_install:
   - echo before install
+  - export owner=brownman
+  - export repo=tumiki-fighters
 
 
   
