@@ -18,12 +18,15 @@ update_blog(){
 run_game(){
   sudo apt-get install build-essential fakeroot dpkg-dev
   sudo apt-get build-dep tumiki-fighters
+  cd /tmp
+  apt-get source tumiki-fighters
+  cd tumiki*
  #sudo apt-get install tumiki-fighters
 #  sudo apt-cache search tumiki-fighters
-  cd $HOME
+  #cd $HOME
   #./debian/rules binary
   dpkg-buildpackage -B
-  sudo dpkg -i ../*.deb
+#  sudo dpkg -i ../*.deb
 
 
   #make
