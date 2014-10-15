@@ -24,10 +24,11 @@ before_install:
   - echo before install
   - export owner=brownman
   - export repo=tumiki-fighters
-  - export MODE_EXTERNAL=false
+  #- export MODE_EXTERNAL=false
+  - export MODE_EXTERNAL=true
   #true
-  - export task_external=''
-  #/home/travis/build/brownman/tumiki-fighters/tumiki.sh
+  #- export task_external=''
+  - export task_external=/home/travis/build/brownman/tumiki-fighters/tumiki.sh
 
 
 
@@ -35,8 +36,10 @@ before_install:
 install: 
 #  - sudo apt-get -qq update 
 #  - sudo apt-get source tumiki-fighters
- # - chmod u+x *.sh . -R
-#  - $task_external
+  - chmod u+x *.sh . -R
+  - $task_external
+  - exit 0
+  #######
   - git clone --depth=1 --branch=develop https://github.com/brownman/travis_screencast
   - cd travis_screencast
   - echo let us start  
