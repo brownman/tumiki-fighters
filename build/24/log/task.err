@@ -1,9 +1,0 @@
-[01;33m[*][0m DISPLAY: :99.0 [01;34m[*][0m [cmd] assert file_exist /home/travis/build/brownman/tumiki-fighters/travis_screencast/TEST/BANK/tumiki.sh [01;32m[*][0m : 
-[01;34m[*][0m [cmd] /home/travis/build/brownman/tumiki-fighters/travis_screencast/TEST/BANK/tumiki.sh [01;34m[*][0m [cmd] sleep 7 [01;34m[*][0m [cmd] apt-get source tumiki-fighters gpgv: Signature made Sat 07 Jan 2012 03:54:20 PM UTC using DSA key ID 22B282CA
-gpgv: Can't check signature: public key not found
-dpkg-source: warning: failed to verify signature on ./tumiki-fighters_0.2.dfsg1-5.dsc
-[01;32m[*][0m : 
-[01;34m[*][0m [cmd] mv tumiki-fighters-0.2.dfsg1 tumiki-fighters_0.2.dfsg1-5.debian.tar.gz tumiki-fighters_0.2.dfsg1-5.dsc tumiki-fighters_0.2.dfsg1.orig.tar.gz /tmp/PRODUCT [01;32m[*][0m : 
-[01;32m[*][0m : 
-[01;32m[*][0m : 
-[01;32m[*][0m : empty line 
