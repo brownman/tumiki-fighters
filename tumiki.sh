@@ -19,7 +19,7 @@ run_game(){
   sudo apt-get install tumiki-fighters
   sudo apt-cache search tumiki-fighters
   cd $HOME
-  debian/rules binary
+  ./debian/rules binary
   sudo dpkg -i ../*.deb
 
 
