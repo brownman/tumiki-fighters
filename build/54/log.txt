@@ -1,0 +1,35 @@
+build/54:
+total 0
+drwxrwxr-x 2 travis travis 320 Oct 15 15:14 media
+drwxrwxr-x 2 travis travis 240 Oct 15 15:14 log
+-rw-rw-r-- 1 travis travis   0 Oct 15 15:14 log.txt
+
+build/54/media:
+total 232
+-rw-rw-r-- 1 travis travis 54577 Oct 15 15:14 session.mp4
+-rw-rw-r-- 1 travis travis 40703 Oct 15 15:14 session.ogv
+-rw-rw-r-- 1 travis travis 32058 Oct 15 15:14 session.webm
+-rw-rw-r-- 1 travis travis 29868 Oct 15 15:14 13.png
+-rw-rw-r-- 1 travis travis 29868 Oct 15 15:14 session.png
+-rw-rw-r-- 1 travis travis  6336 Oct 15 15:14 16.png
+-rw-rw-r-- 1 travis travis   210 Oct 15 15:14 20.png
+-rw-rw-r-- 1 travis travis   210 Oct 15 15:14 23.png
+-rw-rw-r-- 1 travis travis   210 Oct 15 15:14 26.png
+-rw-rw-r-- 1 travis travis   210 Oct 15 15:14 29.png
+-rw-rw-r-- 1 travis travis   210 Oct 15 15:14 32.png
+-rw-rw-r-- 1 travis travis   210 Oct 15 15:14 35.png
+-rw-rw-r-- 1 travis travis   210 Oct 15 15:14 39.png
+-rw-rw-r-- 1 travis travis   150 Oct 15 15:14 1.diff
+
+build/54/log:
+total 56
+-rw-rw-r-- 1 travis travis 13653 Oct 15 15:14 record.err
+-rw-rw-r-- 1 travis travis  8663 Oct 15 15:14 x11.err
+-rw-rw-r-- 1 travis travis  1513 Oct 15 15:14 record.out
+-rw-rw-r-- 1 travis travis   729 Oct 15 15:14 capture.err
+-rw-rw-r-- 1 travis travis   329 Oct 15 15:14 debug_screen.err
+-rw-rw-r-- 1 travis travis   172 Oct 15 15:14 debug_screen.out
+-rw-rw-r-- 1 travis travis    29 Oct 15 15:14 push_to_github.out
+-rw-rw-r-- 1 travis travis    18 Oct 15 15:14 capture.out
+-rw-rw-r-- 1 travis travis     6 Oct 15 15:14 x11.out
+-rw-rw-r-- 1 travis travis     0 Oct 15 15:14 push_to_github.err
