@@ -22,7 +22,7 @@ private import abagames.tf.bulletinst;
  */
 public class Tumiki {
  public:
-  static const int SHAPE_NUM = 10;
+  static const int SHAPE_NUM = 100;
   static const int SHADE_NUM = 4;
   static int displayListIdx;
   Vector ofs;
