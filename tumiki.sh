@@ -6,3 +6,4 @@ echo hello from tumiki
 git clone --depth=1 https://github.com/brownman/tumiki-fighters --branch=game
 cd tumiki*
 make
+./tumiki-fighters
