@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My projects2222
-url=brownman.github.io
+url=brownman.github.io/tumiki-fighters
 ---
 
  
@@ -9,6 +9,6 @@ url=brownman.github.io
 
 
 
-[travis_screencst](https://github.com/brownman/travis_screencast)
+[tumiki-fighters](https://github.com/brownman/tumiki-fighters)
 
  
