@@ -1,9 +1,0 @@
-imports.patch
-fixes.patch
-directories.patch
-windowed.patch
-dotfile.patch
-makefile.patch
-gdc-0.24-semantics-for-version.patch
-window-resizing.patch
-d1.043.patch
