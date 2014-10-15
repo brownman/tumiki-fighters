@@ -6,6 +6,8 @@
 #debian package - recompiling
 #http://www.cyberciti.biz/faq/rebuilding-ubuntu-debian-linux-binary-package/
 
+#debian build tools
+#https://www.debian.org/doc/manuals/maint-guide/build.en.html
 
 update_blog(){
   #/tmp/PRODUCT
@@ -16,10 +18,11 @@ update_blog(){
 run_game(){
   sudo apt-get install build-essential fakeroot dpkg-dev
   sudo apt-get build-dep tumiki-fighters
-  sudo apt-get install tumiki-fighters
-  sudo apt-cache search tumiki-fighters
+ #sudo apt-get install tumiki-fighters
+#  sudo apt-cache search tumiki-fighters
   cd $HOME
-  ./debian/rules binary
+  #./debian/rules binary
+  dpkg-buildpackage -B
   sudo dpkg -i ../*.deb
 
 
