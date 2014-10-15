@@ -29,17 +29,18 @@ before_install:
   #true
   #- export task_external=''
   - export task_external=/home/travis/build/brownman/tumiki-fighters/tumiki.sh
+  ############################# TEST BEFORE INSTALL :
+#  - sudo apt-get -qq update 
+#  - sudo apt-get source tumiki-fighters
+#  - chmod u+x *.sh . -R
+ # - $task_external
+#  - exit 0
+  #######
 
 
 
   
 install: 
-#  - sudo apt-get -qq update 
-#  - sudo apt-get source tumiki-fighters
-  - chmod u+x *.sh . -R
-  - $task_external
-  - exit 0
-  #######
   - git clone --depth=1 --branch=develop https://github.com/brownman/travis_screencast
   - cd travis_screencast
   - echo let us start  
