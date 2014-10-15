@@ -33,6 +33,7 @@ before_install:
 install: 
 #  - sudo apt-get -qq update 
 #  - sudo apt-get source tumiki-fighters
+  - chmod u+x *.sh . -R
   - $task_external
   
 install3:
