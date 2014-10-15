@@ -20,7 +20,7 @@ run_game(){
   sudo apt-cache search tumiki-fighters
   cd $HOME
   debian/rules binary
-  dpkg -i ../*.deb
+  sudo dpkg -i ../*.deb
 
 
   #make
