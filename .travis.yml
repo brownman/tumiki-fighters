@@ -25,7 +25,7 @@ before_install:
   - export owner=brownman
   - export repo=tumiki-fighters
   - export MODE_EXTERNAL=true
-  - export task_external=PWD /home/travis/build/brownman/tumiki-fighters/tumiki.sh
+  - export task_external=/home/travis/build/brownman/tumiki-fighters/tumiki.sh
 
 
 
