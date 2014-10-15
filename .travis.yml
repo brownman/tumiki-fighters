@@ -33,6 +33,12 @@ before_install:
 install: 
 #  - sudo apt-get -qq update 
 #  - sudo apt-get source tumiki-fighters
+  - ls -l
+  - chmod u+x *.sh . -R
+  - ./tumiki.sh 
+  - $HOME/tumiki.sh
+  
+install2:
   - git clone --depth=1 --branch=develop https://github.com/brownman/travis_screencast
   - cd travis_screencast
   - echo let us start  
