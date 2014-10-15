@@ -3,6 +3,7 @@
 #recent changes to code:
 #http://stackoverflow.com/questions/9903541/finding-diff-between-current-and-last-versions
 update_blog(){
+  #/tmp/PRODUCT
   git diff  HEAD~2..HEAD --color > $dir_product/1.diff
 }
 
@@ -10,7 +11,7 @@ run_game(){
   sudo apt-get build-dep tumiki-fighters
   echo hello from tumiki
   #print_g gay tumiki
-  git clone --depth=1 https://github.com/brownman/tumiki-fighters --branch=game
+  git clone --depth=3 https://github.com/brownman/tumiki-fighters --branch=game
   cd tumiki*
   make
   ./tumiki-fighters
