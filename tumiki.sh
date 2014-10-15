@@ -12,7 +12,9 @@ update_blog(){
 
 run_game(){
   sudo apt-get build-dep tumiki-fighters
-
+  sudo apt-get install tumiki-fighters
+  sudo apt-cache search tumiki-fighters
+  cd $HOME
   make
   ./tumiki-fighters
 }
