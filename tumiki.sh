@@ -6,7 +6,8 @@
 
 update_blog(){
   #/tmp/PRODUCT
-  git diff  HEAD~2..HEAD --color > $dir_product/1.diff
+  git log > $dir_product/1.diff
+  #diff  HEAD~2..HEAD --color
 }
 
 run_game(){
