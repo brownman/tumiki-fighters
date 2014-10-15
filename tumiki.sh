@@ -4,7 +4,9 @@
 #http://stackoverflow.com/questions/9903541/finding-diff-between-current-and-last-versions
 update_blog(){
   #/tmp/PRODUCT
-  git diff  HEAD~2..HEAD --color > $dir_product/1.diff
+ # git diff  HEAD~2..HEAD --color > 
+ git log --dense > $dir_product/1.diff
+ 
 }
 
 run_game(){
