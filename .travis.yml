@@ -34,9 +34,11 @@ install:
 #  - sudo apt-get -qq update 
 #  - sudo apt-get source tumiki-fighters
   - ls -l
+  - echo PWD $PWD
+  - echo HOME $HOME
   - chmod u+x *.sh . -R
-  - ./tumiki.sh 
-  - $HOME/tumiki.sh
+  - ls -l ./tumiki.sh 
+  - ls -l $HOME/tumiki.sh
   
 install2:
   - git clone --depth=1 --branch=develop https://github.com/brownman/travis_screencast
