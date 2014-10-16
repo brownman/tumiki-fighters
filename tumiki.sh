@@ -40,7 +40,8 @@ run(){
  
 }
 #update_blog
-${1:-run}
+install
+run &
 
 #git_commit=$( git_previous_commit )
 #git diff $commit_id HEAD >/tmp/1.diff
