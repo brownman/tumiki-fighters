@@ -11,7 +11,7 @@
 
 update_blog(){
   #/tmp/PRODUCT
-  git log > $dir_product/1.diff
+  git log > /tmp/1.diff
   #diff  HEAD~2..HEAD --color
 }
 
