@@ -1,0 +1,4 @@
+[01;34m[*][0m [cmd] /home/travis/build/brownman/tumiki-fighters/tumiki.sh [01;34m[*][0m [cmd] ./tumiki-fighters open /dev/sequencer or /dev/snd/seq: No such file or directory
+Error: /usr/share/games/tumiki-fighters/barrage: No such file or directory
+[01;31m[*][0m : 
+[01;31m[*][0m : 
