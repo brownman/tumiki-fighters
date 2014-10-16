@@ -35,8 +35,8 @@ install(){
 
 }
 run(){
-    commander cd /tmp/tum*
-    commander /tumiki-fighters
+    cd /tmp/tum*
+    commander ./tumiki-fighters
  
 }
 #update_blog
