@@ -16,6 +16,7 @@ update_blog(){
 }
 
 install(){
+  sudo apt-get update
   sudo apt-get install build-essential fakeroot dpkg-dev 
   sudo apt-get build-dep tumiki-fighters
   cd /tmp
