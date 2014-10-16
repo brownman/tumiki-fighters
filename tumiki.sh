@@ -30,6 +30,7 @@ run_game(){
 
 
   make
+  echo res $?
   ./tumiki-fighters
 }
 
