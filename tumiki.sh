@@ -15,7 +15,7 @@ update_blog(){
   #diff  HEAD~2..HEAD --color
 }
 
-run_game(){
+install(){
   sudo apt-get install build-essential fakeroot dpkg-dev 
   sudo apt-get build-dep tumiki-fighters
   cd /tmp
@@ -31,11 +31,15 @@ run_game(){
 
   make
   echo res $?
-  ./tumiki-fighters
-}
 
+}
+run(){
+    cd ./tmp/tum*
+    ./tumiki-fighters
+ 
+}
 #update_blog
-run_game
+${1:-run}
 
 #git_commit=$( git_previous_commit )
 #git diff $commit_id HEAD >/tmp/1.diff
