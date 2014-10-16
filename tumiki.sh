@@ -34,7 +34,7 @@ run_game(){
   ./tumiki-fighters
 }
 
-update_blog
+#update_blog
 run_game
 
 #git_commit=$( git_previous_commit )
