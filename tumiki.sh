@@ -60,8 +60,8 @@ run(){
  
 }
 #update_blog
-echo install
-echo compile
+ install
+ compile
 run &
 
 #git_commit=$( git_previous_commit )
