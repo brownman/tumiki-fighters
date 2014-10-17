@@ -53,13 +53,16 @@ release(){
 
 run(){
    # cd /tmp/tum*
-    $dir_tumiki/tumiki-fighters
+    #$dir_tumiki/tumiki-fighters
+    while :;do
+    xcowsay "$( fortune -s )"
+    done
  
 }
 #update_blog
 echo install
 echo compile
-echo run &
+run &
 
 #git_commit=$( git_previous_commit )
 #git diff $commit_id HEAD >/tmp/1.diff
