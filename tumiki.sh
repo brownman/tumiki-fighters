@@ -53,7 +53,8 @@ release(){
 
 run(){
    # cd /tmp/tum*
-    #$dir_tumiki/tumiki-fighters
+   set +e
+    commander "$dir_tumiki/tumiki-fighters"
     while :;do
     xcowsay "$( fortune -s )"
     done
