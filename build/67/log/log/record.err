@@ -1,0 +1,275 @@
+[01;34m[*][0m [cmd] ffmpeg -version ffmpeg version 0.8.16-4:0.8.16-0ubuntu0.12.04.1, Copyright (c) 2000-2014 the Libav developers
+  built on Sep 16 2014 18:33:49 with gcc 4.6.3
+The ffmpeg program is only provided for script compatibility and will be removed
+in a future release. It has been deprecated in the Libav project to allow for
+incompatible command line syntax improvements in its replacement called avconv
+(see Changelog for details). Please use avconv instead.
+[01;32m[*][0m : 
+[01;34m[*][0m [cmd] record_recordmydesktop [01;34m[*][0m [cmd] sleep 10 [01;34m[*][0m [cmd] recordmydesktop --width 1024 --height 768 \ --full-shots --fps 15 --channels 1 --device pulse --v_quality 63 --s_quality 10 --v_bitrate 2000000 --no-wm-check --no-cursor --output=/tmp/PRODUCT/session.ogv Initial recording window is set to:
+X:0   Y:0    Width:1024    Height:768
+Adjusted recording window is set to:
+X:0   Y:0    Width:1024    Height:768
+Initializing...
+Buffer size adjusted to 4096 from 4096 frames.
+Opened PCM device pulse
+Recording on device pulse is set to:
+1 channels at 22050Hz
+Capturing!
+[01;32m[*][0m : 
+[01;34m[*][0m [cmd] killall recordmydesktop Shutting down.
+*********************************************
+
+Cached 69 MB, from 229 MB that were received.
+Average cache compression ratio: 69.9 %
+
+*********************************************
+Saved 153 frames in a total of 152 requests
+...[01;32m[*][0m : 
+.
+STATE:ENCODING
+Encoding started!
+This may take several minutes.
+Pressing Ctrl-C will cancel the procedure (resuming will not be possible, but
+any portion of the video, which is already encoded won't be deleted).
+Please wait...
+Output file: /tmp/PRODUCT/session.ogv
+Encoding finished!
+Wait a moment please...
+   
+Done.
+Written 380380 bytes
+(379437 of which were video data and 943 audio data)
+
+Cleanning up cache...
+Done!!!
+Goodbye!
+[01;32m[*][0m : 
+[01;32m[*][0m : 
+[01;34m[*][0m [cmd] convert_from_ogv [01;34m[*][0m [cmd] HandBrakeCLI -i /tmp/PRODUCT/session.ogv -o /tmp/PRODUCT/session.mp4 --encoder x264 --vb 1800 --ab 128 --maxWidth $WIDTH --maxHeight $HEIGHT --two-pass --optimize [06:12:02] hb_init: starting libhb thread
+HandBrake rev0 (2013051899) - Linux x86_64 - http://handbrake.fr
+32 CPUs detected
+Opening /tmp/PRODUCT/session.ogv...
+[06:12:02] hb_scan: path=/tmp/PRODUCT/session.ogv, title_index=1
+libbluray/bdnav/index_parse.c:162: indx_parse(): error opening /tmp/PRODUCT/session.ogv/BDMV/index.bdmv
+libbluray/bdnav/index_parse.c:162: indx_parse(): error opening /tmp/PRODUCT/session.ogv/BDMV/BACKUP/index.bdmv
+libbluray/bluray.c:1725: nav_get_title_list(/tmp/PRODUCT/session.ogv) failed (0x7f09f4000900)
+[06:12:02] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 4.1.3
+libdvdread: Encrypted DVD support unavailable.
+libdvdnav:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdnav:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[06:12:02] dvd: not a dvd - trying as a stream/file instead
+Input #0, ogg, from '/tmp/PRODUCT/session.ogv':
+  Duration: 00:00:10.26, start: 0.000000, bitrate: 302 kb/s
+    Stream #0.0: Data: skeleton
+    Stream #0.1: Video: theora, yuv420p, 1024x768 [PAR 1:1 DAR 4:3], 15 fps, 15 tbn, 15 tbc
+    Stream #0.2: Audio: vorbis, 22050 Hz, mono, fltp, 89 kb/s
+[06:12:02] scan: decoding previews for title 1
+[06:12:02] scan: audio 0x2: vorbis, rate=22050Hz, bitrate=89991 Unknown (vorbis) (1.0 ch)
+[06:12:02] Warning: Could not read data for preview 1, skipped
+[ogg @ 0x7f09f4001860] read_timestamp() failed in the middle
+[ogg @ 0x7f09f4001860] read_timestamp() failed in the middle
+[ogg @ 0x7f09f4001860] read_timestamp() failed in the middle
+[ogg @ 0x7f09f4001860] read_timestamp() failed in the middle
+[ogg @ 0x7f09f4001860] read_timestamp() failed in the middle
+[ogg @ 0x7f09f4001860] read_timestamp() failed in the middle
+[ogg @ 0x7f09f4001860] read_timestamp() failed in the middle
+[ogg @ 0x7f09f4001860] read_timestamp() failed in the middle
+[06:12:02] scan: 9 previews, 1024x768, 15.000 fps, autocrop = 0/0/0/0, aspect 4:3, PAR 1:1
+[06:12:02] libhb: scan thread found 1 valid title(s)
++ title 1:
+  + stream: /tmp/PRODUCT/session.ogv
+  + duration: 00:00:10
+  + size: 1024x768, pixel aspect: 1/1, display aspect: 1.33, 15.000 fps
+  + autocrop: 0/0/0/0
+  + chapters:
+    + 1: cells 0->0, 0 blocks, duration 00:00:10
+  + audio tracks:
+    + 1, Unknown (vorbis) (1.0 ch) (iso639-2: und)
+  + subtitle tracks:
+[06:12:02] 2 job(s) to process
+[06:12:02] starting job
+[06:12:02] work: mixdown not specified, track 1 setting mixdown Mono
+[06:12:02] work: sanitizing track 1 bitrate 128 to 96 Kbps
+[06:12:02] sync: expecting 154 video frames
+[06:12:02] job configuration:
+[06:12:02]  * source
+[06:12:02]    + /tmp/PRODUCT/session.ogv
+[06:12:02]    + title 1, chapter(s) 1 to 1
+[06:12:02]    + container: ogg
+[06:12:02]    + data rate: 302 kbps
+[06:12:02]  * destination
+[06:12:02]    + /tmp/PRODUCT/session.mp4
+[06:12:02]    + container: MPEG-4 (.mp4 and .m4v)
+[06:12:02]      + optimized for progressive web downloads
+[06:12:02]  * video track
+[06:12:02]    + decoder: theora
+[06:12:02]    + frame rate: same as source (around 15.000 fps)
+[06:12:02]    + filters
+[06:12:02]      + Framerate Shaper (0:27000000:1800000)
+[06:12:02]        + frame rate: same as source (around 15.000 fps)
+[06:12:02]      + Crop and Scale (1024:768:0:0:0:0)
+[06:12:02]        + source: 1024 * 768, crop (0/0/0/0): 1024 * 768, scale: 1024 * 768
+[06:12:02]    + dimensions: 1024 * 768, mod 0
+[06:12:02]    + encoder: H.264 (x264)
+[06:12:02]      + bitrate: 1800 kbps, pass: 1
+[06:12:02]  * audio track 1
+[06:12:02]    + decoder: Unknown (vorbis) (1.0 ch) (track 1, id 0x2)
+[06:12:02]      + bitrate: 89 kbps, samplerate: 22050 Hz
+[06:12:02]    + mixdown: Mono
+[06:12:02]    + encoder: AAC (faac)
+[06:12:02]      + bitrate: 96 kbps, samplerate: 22050 Hz
+[06:12:02] reader: first SCR 0 id 0x1 DTS 0
+[06:12:02] encx264: min-keyint: 15, keyint: 150
+x264 [warning]: --psnr used with psy on: results will be invalid!
+x264 [warning]: --tune psnr should be used if attempting to benchmark psnr!
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 FMA3 SSEMisalign LZCNT BMI1
+x264 [info]: profile High, level 3.1
+[06:12:03] reader: done. 1 scr changes
+[06:12:03] work: average encoding speed for job is 0.000000 fps
+[06:12:04] sync: got 152 frames, 154 expected
+[06:12:04] render: lost time: 0 (0 frames)
+[06:12:04] render: gained time: 0 (0 frames) (0 not accounted for)
+[06:12:04] theora-decoder done: 152 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:3     Avg QP: 4.72  size: 16503  PSNR Mean Y:69.41 U:71.11 V:70.54 Avg:69.82 Global:60.75
+x264 [info]: frame P:38    Avg QP: 5.53  size: 11607  PSNR Mean Y:68.99 U:68.79 V:68.83 Avg:68.91 Global:62.33
+x264 [info]: frame B:111   Avg QP: 6.30  size:  2757  PSNR Mean Y:68.70 U:67.86 V:68.08 Avg:68.42 Global:62.10
+x264 [info]: consecutive B-frames:  2.6%  0.0%  0.0% 97.4%
+x264 [info]: mb I  I16..4: 93.4%  2.1%  4.5%
+x264 [info]: mb P  I16..4:  1.3%  0.2%  0.6%  P16..4:  4.6%  0.8%  0.7%  0.0%  0.0%    skip:91.8%
+x264 [info]: mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  2.6%  0.5%  0.2%  direct: 0.6%  skip:96.1%  L0:44.1% L1:53.1% BI: 2.8%
+x264 [info]: final ratefactor: -5.53
+x264 [info]: 8x8 transform intra:3.3% inter:49.9%
+x264 [info]: coded y,uvDC,uvAC intra: 8.3% 14.0% 13.5% inter: 0.8% 2.5% 2.4%
+x264 [info]: i16 v,h,dc,p: 79% 19%  2%  0%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  7% 64% 21%  1%  1%  0%  3%  1%  2%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 28% 29% 18%  3%  4%  5%  5%  4%  4%
+x264 [info]: i8c dc,h,v,p: 74% 22%  4%  1%
+x264 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+x264 [info]: ref P L0: 84.6%  1.4%  9.4%  4.5%
+x264 [info]: ref B L0: 90.9%  7.7%  1.4%
+x264 [info]: ref B L1: 98.8%  1.2%
+x264 [info]: SSIM Mean Y:0.9998730 (38.963db)
+x264 [info]: PSNR Mean Y:68.794 U:68.197 V:68.348 Avg:68.589 Global:62.101 kb/s:620.76
+[06:12:04] vorbis-decoder done: 0 frames, 0 decoder errors, 0 drops
+[06:12:04] starting job
+[06:12:04] work: mixdown not specified, track 1 setting mixdown Mono
+[06:12:04] work: sanitizing track 1 bitrate 128 to 96 Kbps
+[06:12:04] sync: expecting 152 video frames
+[06:12:04] job configuration:
+[06:12:04]  * source
+[06:12:04]    + /tmp/PRODUCT/session.ogv
+[06:12:04]    + title 1, chapter(s) 1 to 1
+[06:12:04]    + container: ogg
+[06:12:04]    + data rate: 302 kbps
+[06:12:04]  * destination
+[06:12:04]    + /tmp/PRODUCT/session.mp4
+[06:12:04]    + container: MPEG-4 (.mp4 and .m4v)
+[06:12:04]      + optimized for progressive web downloads
+[06:12:04]  * video track
+[06:12:04]    + decoder: theora
+[06:12:04]    + frame rate: same as source (around 15.000 fps)
+[06:12:04]    + filters
+[06:12:04]      + Framerate Shaper (0:27000000:1800000)
+[06:12:04]        + frame rate: same as source (around 15.000 fps)
+[06:12:04]      + Crop and Scale (1024:768:0:0:0:0)
+[06:12:04]        + source: 1024 * 768, crop (0/0/0/0): 1024 * 768, scale: 1024 * 768
+[06:12:04]    + dimensions: 1024 * 768, mod 0
+[06:12:04]    + encoder: H.264 (x264)
+[06:12:04]      + bitrate: 1800 kbps, pass: 2
+[06:12:04]  * audio track 1
+[06:12:04]    + decoder: Unknown (vorbis) (1.0 ch) (track 1, id 0x2)
+[06:12:04]      + bitrate: 89 kbps, samplerate: 22050 Hz
+[06:12:04]    + mixdown: Mono
+[06:12:04]    + encoder: AAC (faac)
+[06:12:04]      + bitrate: 96 kbps, samplerate: 22050 Hz
+[06:12:04] reader: first SCR 0 id 0x1 DTS 0
+[06:12:04] encx264: min-keyint: 15, keyint: 150
+x264 [warning]: --psnr used with psy on: results will be invalid!
+x264 [warning]: --tune psnr should be used if attempting to benchmark psnr!
+x264 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX XOP FMA4 FMA3 SSEMisalign LZCNT BMI1
+x264 [warning]: Error: 2pass curve failed to converge
+x264 [warning]: target: 1800.00 kbit/s, expected: 1241.65 kbit/s, avg QP: 0.0547
+x264 [warning]: try reducing target bitrate
+x264 [info]: profile High, level 3.1
+[06:12:04] reader: done. 1 scr changes
+[06:12:04] work: average encoding speed for job is 0.000000 fps
+[06:12:04] sync: got 152 frames, 152 expected
+[06:12:04] render: lost time: 0 (0 frames)
+[06:12:04] render: gained time: 0 (0 frames) (0 not accounted for)
+[06:12:04] theora-decoder done: 152 frames, 0 decoder errors, 0 drops
+x264 [info]: frame I:3     Avg QP: 0.01  size: 26227  PSNR Mean Y:83.12 U:83.49 V:82.86 Avg:83.13 Global:79.81
+x264 [info]: frame P:38    Avg QP: 0.17  size: 13571  PSNR Mean Y:76.57 U:76.33 V:76.07 Avg:76.41 Global:76.11
+x264 [info]: frame B:111   Avg QP: 0.86  size:  3700  PSNR Mean Y:76.61 U:75.73 V:75.56 Avg:76.23 Global:75.93
+x264 [info]: consecutive B-frames:  2.6%  0.0%  0.0% 97.4%
+x264 [info]: mb I  I16..4: 94.6%  0.9%  4.5%
+x264 [info]: mb P  I16..4:  1.2%  0.2%  0.6%  P16..4:  4.1%  0.7%  0.7%  0.0%  0.0%    skip:92.4%
+x264 [info]: mb B  I16..4:  0.0%  0.0%  0.0%  B16..8:  2.4%  0.6%  0.2%  direct: 1.2%  skip:95.7%  L0:45.2% L1:51.2% BI: 3.6%
+x264 [info]: 8x8 transform intra:2.7% inter:48.0%
+x264 [info]: coded y,uvDC,uvAC intra: 9.1% 14.1% 13.7% inter: 0.9% 3.1% 3.1%
+x264 [info]: i16 v,h,dc,p: 79% 19%  2%  0%
+x264 [info]: i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 10% 59% 23%  1%  1%  1%  3%  1%  3%
+x264 [info]: i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 26% 31% 18%  3%  4%  5%  6%  4%  4%
+x264 [info]: i8c dc,h,v,p: 74% 21%  4%  1%
+x264 [info]: Weighted P-Frames: Y:0.0% UV:0.0%
+x264 [info]: ref P L0: 89.3%  5.4%  4.2%  1.2%
+x264 [info]: ref B L0: 94.8%  4.5%  0.8%
+x264 [info]: ref B L1: 99.4%  0.6%
+x264 [info]: SSIM Mean Y:0.9999934 (51.794db)
+x264 [info]: PSNR Mean Y:76.813 U:76.128 V:75.921 Avg:76.497 Global:76.058 kb/s:783.19
+[06:12:05] vorbis-decoder done: 0 frames, 0 decoder errors, 0 drops
+[06:12:05] muxmp4: optimizing file
+[06:12:05] mux: track 0, 152 frames, 1005007 bytes, 783.12 kbps, fifo 256
+[06:12:05] mux: track 1, 215 frames, 1307 bytes, 1.02 kbps, fifo 256
+[06:12:05] libhb: work result = 0
+
+Encode done!
+HandBrake has exited.
+[01;32m[*][0m : 
+[01;34m[*][0m [cmd] ffmpeg -i /tmp/PRODUCT/session.mp4 -acodec libvorbis -ac 2 -ab 96k -ar 44100 -b:v 345k -s 1024x768 /tmp/PRODUCT/session.webm ffmpeg version 0.8.16-4:0.8.16-0ubuntu0.12.04.1, Copyright (c) 2000-2014 the Libav developers
+  built on Sep 16 2014 18:33:49 with gcc 4.6.3
+The ffmpeg program is only provided for script compatibility and will be removed
+in a future release. It has been deprecated in the Libav project to allow for
+incompatible command line syntax improvements in its replacement called avconv
+(see Changelog for details). Please use avconv instead.
+
+Seems stream 0 codec frame rate differs from container frame rate: 180000.00 (180000/1) -> 15.00 (15/1)
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/tmp/PRODUCT/session.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isomavc1
+    creation_time   : 2014-10-17 06:12:04
+    encoder         : HandBrake rev0 2013051899
+  Duration: 00:00:10.40, start: 0.000000, bitrate: 777 kb/s
+    Stream #0.0(und): Video: h264 (High), yuv420p, 1024x768, 773 kb/s, 14.62 fps, 15 tbr, 90k tbn, 180k tbc
+    Metadata:
+      creation_time   : 2014-10-17 06:12:04
+    Stream #0.1(und): Audio: aac, 22050 Hz, mono, s16, 1 kb/s
+    Metadata:
+      creation_time   : 2014-10-17 06:12:04
+[buffer @ 0x1b41c60] w:1024 h:768 pixfmt:yuv420p
+[libvpx @ 0x1b49f80] v1.0.0
+Output #0, webm, to '/tmp/PRODUCT/session.webm':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 0
+    compatible_brands: mp42isomavc1
+    creation_time   : 2014-10-17 06:12:04
+    encoder         : Lavf53.21.1
+    Stream #0.0(und): Video: libvpx, yuv420p, 1024x768, q=-1--1, 200 kb/s, 1k tbn, 15 tbc
+    Metadata:
+      creation_time   : 2014-10-17 06:12:04
+    Stream #0.1(und): Audio: libvorbis, 44100 Hz, 2 channels, s16, 96 kb/s
+    Metadata:
+      creation_time   : 2014-10-17 06:12:04
+Stream mapping:
+  Stream #0.0 -> #0.0
+  Stream #0.1 -> #0.1
+Press ctrl-c to stop encoding
+frame=    4 fps=  0 q=0.0 size=       4kB time=0.40 bitrate=  88.2kbits/s    frame=    7 fps=  6 q=0.0 size=       4kB time=0.60 bitrate=  58.8kbits/s    frame=   10 fps=  6 q=0.0 size=       4kB time=0.78 bitrate=  45.3kbits/s    frame=   14 fps=  6 q=0.0 size=      36kB time=1.06 bitrate= 281.1kbits/s    frame=   17 fps=  6 q=0.0 size=      36kB time=1.27 bitrate= 234.9kbits/s    frame=   21 fps=  6 q=0.0 size=      36kB time=1.53 bitrate= 193.9kbits/s    frame=   23 fps=  5 q=0.0 size=      36kB time=1.67 bitrate= 178.5kbits/s    frame=   27 fps=  5 q=0.0 size=      36kB time=1.93 bitrate= 153.8kbits/s    frame=   30 fps=  5 q=0.0 size=      36kB time=2.13 bitrate= 139.4kbits/s    frame=   33 fps=  5 q=0.0 size=      36kB time=2.33 bitrate= 127.4kbits/s    frame=   36 fps=  5 q=0.0 size=      36kB time=2.53 bitrate= 117.4kbits/s    frame=   39 fps=  5 q=0.0 size=      36kB time=2.73 bitrate= 108.8kbits/s    frame=   42 fps=  5 q=0.0 size=      36kB time=2.93 bitrate= 101.4kbits/s    frame=   45 fps=  5 q=0.0 size=      36kB time=3.13 bitrate=  94.9kbits/s    frame=   48 fps=  5 q=0.0 size=      68kB time=3.33 bitrate= 167.8kbits/s    frame=   51 fps=  5 q=0.0 size=      68kB time=3.53 bitrate= 158.3kbits/s    frame=   54 fps=  5 q=0.0 size=      68kB time=3.73 bitrate= 149.9kbits/s    frame=   58 fps=  5 q=0.0 size=      68kB time=4.00 bitrate= 139.9kbits/s    frame=   61 fps=  5 q=0.0 size=      68kB time=4.20 bitrate= 133.2kbits/s    frame=   65 fps=  5 q=0.0 size=      68kB time=4.47 bitrate= 125.3kbits/s    frame=   68 fps=  5 q=0.0 size=      68kB time=4.67 bitrate= 119.9kbits/s    frame=   71 fps=  5 q=0.0 size=      68kB time=4.87 bitrate= 115.0kbits/s    frame=   77 fps=  5 q=0.0 size=     103kB time=5.27 bitrate= 160.9kbits/s    frame=   83 fps=  5 q=0.0 size=     103kB time=5.67 bitrate= 149.5kbits/s    frame=   86 fps=  5 q=0.0 size=     103kB time=5.87 bitrate= 144.4kbits/s    frame=   89 fps=  5 q=0.0 size=     103kB time=6.07 bitrate= 139.6kbits/s    frame=   92 fps=  5 q=0.0 size=     103kB time=6.27 bitrate= 135.2kbits/s    frame=   97 fps=  6 q=0.0 size=     135kB time=6.60 bitrate= 168.1kbits/s    frame=  100 fps=  6 q=0.0 size=     135kB time=6.80 bitrate= 163.1kbits/s    frame=  104 fps=  6 q=0.0 size=     135kB time=7.07 bitrate= 157.0kbits/s    frame=  107 fps=  6 q=0.0 size=     135kB time=7.27 bitrate= 152.7kbits/s    frame=  111 fps=  6 q=0.0 size=     135kB time=7.53 bitrate= 147.2kbits/s    frame=  114 fps=  6 q=0.0 size=     135kB time=7.73 bitrate= 143.4kbits/s    frame=  119 fps=  6 q=0.0 size=     167kB time=8.07 bitrate= 170.0kbits/s    frame=  122 fps=  6 q=0.0 size=     167kB time=8.27 bitrate= 165.9kbits/s    frame=  127 fps=  6 q=0.0 size=     167kB time=8.60 bitrate= 159.5kbits/s    frame=  131 fps=  6 q=0.0 size=     183kB time=8.87 bitrate= 168.9kbits/s    frame=  133 fps=  6 q=0.0 size=     183kB time=9.00 bitrate= 166.4kbits/s    frame=  135 fps=  6 q=0.0 size=     183kB time=9.13 bitrate= 163.9kbits/s    frame=  137 fps=  6 q=0.0 size=     183kB time=9.27 bitrate= 161.6kbits/s    frame=  140 fps=  6 q=0.0 size=     183kB time=9.47 bitrate= 158.2kbits/s    frame=  143 fps=  5 q=0.0 size=     183kB time=9.67 bitrate= 154.9kbits/s    frame=  146 fps=  5 q=0.0 size=     215kB time=9.87 bitrate= 178.3kbits/s    frame=  150 fps=  5 q=0.0 size=     215kB time=9.93 bitrate= 177.2kbits/s    frame=  152 fps=  6 q=0.0 Lsize=     225kB time=9.97 bitrate= 184.9kbits/s    
+video:217kB audio:0kB global headers:4kB muxing overhead 1.871769%
+[01;32m[*][0m : 
+[01;32m[*][0m : 
