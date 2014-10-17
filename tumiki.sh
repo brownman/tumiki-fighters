@@ -14,12 +14,20 @@ update_blog(){
   git log > /tmp/1.diff
   #diff  HEAD~2..HEAD --color
 }
-compile2(){
+
+easy(){
+  #get the code
   cd /tmp
   apt-get source tumiki-fighters
   cd tumiki*
+  
+  #compile
   make
   echo res $?
+  
+  ###run
+  cd /tmp/tum*
+  ./tumiki-fighters
 }
 
 install(){
@@ -30,12 +38,15 @@ install(){
 compile(){
   make
 }
+
+release(){
 #sudo apt-get install tumiki-fighters
 #  sudo apt-cache search tumiki-fighters
   #cd $HOME
   #./debian/rules binary
-  #dpkg-buildpackage -B
-  #sudo dpkg -i ../*.deb
+  dpkg-buildpackage -B
+  sudo dpkg -i ../*.deb
+}
 
 
 run(){
@@ -46,7 +57,7 @@ run(){
 #update_blog
 install
 compile
-run2 &
+run &
 
 #git_commit=$( git_previous_commit )
 #git diff $commit_id HEAD >/tmp/1.diff
