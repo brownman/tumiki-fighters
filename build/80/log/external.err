@@ -1,0 +1,9 @@
+[01;34m[*][0m [cmd] /home/travis/build/brownman/tumiki-fighters/tumiki.sh make: *** No targets specified and no makefile found.  Stop.
+[01;32m[*][0m : 
+[01;34m[*][0m [cmd] /home/travis/build/brownman/tumiki-fighters/tumiki-fighters /home/travis/build/brownman/tumiki-fighters/tumiki.sh: line 5: /home/travis/build/brownman/tumiki-fighters/tumiki-fighters: No such file or directory
+[01;31m[*][0m : 
+Xlib:  extension "RANDR" missing on display ":99.0".
+Xlib:  extension "RANDR" missing on display ":99.0".
+Xlib:  extension "RANDR" missing on display ":99.0".
+Xlib:  extension "RANDR" missing on display ":99.0".
+Xlib:  extension "RANDR" missing on display ":99.0".
