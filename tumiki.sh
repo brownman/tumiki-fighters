@@ -38,8 +38,8 @@ compile(){
   #sudo dpkg -i ../*.deb
 
 
-run2(){
-    cd /tmp/tum*
+run(){
+   # cd /tmp/tum*
     ./tumiki-fighters
  
 }
