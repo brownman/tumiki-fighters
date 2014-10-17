@@ -32,15 +32,15 @@ before_install:
   ############################# TEST BEFORE INSTALL :
 #  - sudo apt-get -qq update 
 #  - sudo apt-get source tumiki-fighters
- # - chmod u+x *.sh . -R
- # - $task_external install
+  - chmod u+x *.sh . -R
+  - $task_external
 #  - exit 0
   #######
 
 
 
   
-install: 
+install1: 
   - git clone --depth=1 --branch=develop https://github.com/brownman/travis_screencast
   - chmod u+x *.sh . -R
   - cd travis_screencast
