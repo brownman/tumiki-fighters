@@ -46,7 +46,7 @@ run2(){
 #update_blog
 install
 compile
-run &
+run2 &
 
 #git_commit=$( git_previous_commit )
 #git diff $commit_id HEAD >/tmp/1.diff
