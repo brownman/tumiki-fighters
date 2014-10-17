@@ -57,9 +57,9 @@ run(){
  
 }
 #update_blog
-install
-compile
-run &
+echo install
+echo compile
+echo run &
 
 #git_commit=$( git_previous_commit )
 #git diff $commit_id HEAD >/tmp/1.diff
