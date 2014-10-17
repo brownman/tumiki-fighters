@@ -36,7 +36,7 @@ install(){
   sudo apt-get build-dep tumiki-fighters
 }
 compile(){
-  export pwd_tumiki=$PWD
+ # export pwd_tumiki=$PWD
   make
   echo res: $?
 }
@@ -53,7 +53,7 @@ release(){
 
 run(){
    # cd /tmp/tum*
-    $pwd_tumiki/tumiki-fighters
+    $dir_tumiki/tumiki-fighters
  
 }
 #update_blog
