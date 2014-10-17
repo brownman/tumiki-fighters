@@ -37,6 +37,7 @@ install(){
 }
 compile(){
  # export pwd_tumiki=$PWD
+  cd $dir_tumiki
   make
   echo res: $?
 }
