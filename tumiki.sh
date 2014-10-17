@@ -14,15 +14,23 @@ update_blog(){
   git log > /tmp/1.diff
   #diff  HEAD~2..HEAD --color
 }
-
-install(){
-  sudo apt-get update
-  sudo apt-get install build-essential fakeroot dpkg-dev 
-  sudo apt-get build-dep tumiki-fighters
+compile2(){
   cd /tmp
   apt-get source tumiki-fighters
   cd tumiki*
- #sudo apt-get install tumiki-fighters
+  make
+  echo res $?
+}
+
+install(){
+  sudo apt-get -qq update
+  sudo apt-get install build-essential fakeroot dpkg-dev 
+  sudo apt-get build-dep tumiki-fighters
+}
+compile(){
+  make
+}
+#sudo apt-get install tumiki-fighters
 #  sudo apt-cache search tumiki-fighters
   #cd $HOME
   #./debian/rules binary
@@ -30,17 +38,14 @@ install(){
   #sudo dpkg -i ../*.deb
 
 
-  make
-  echo res $?
-
-}
-run(){
+run2(){
     cd /tmp/tum*
-    commander ./tumiki-fighters
+    ./tumiki-fighters
  
 }
 #update_blog
 install
+compile
 run &
 
 #git_commit=$( git_previous_commit )
