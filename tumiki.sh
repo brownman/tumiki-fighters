@@ -9,6 +9,8 @@
 #debian build tools
 #https://www.debian.org/doc/manuals/maint-guide/build.en.html
 
+ depend xdotool
+ 
 update_blog(){
   #/tmp/PRODUCT
   git log > /tmp/1.diff
@@ -52,19 +54,28 @@ release(){
 }
 
 
-run(){
-   # cd /tmp/tum*
-   set +e
-    commander "$dir_tumiki/tumiki-fighters"
+
+test_game(){
+commander $dir_tumiki/tumiki-fighters -fullscreen &
+
+  sleep 1
+  while :;do
+  xdotool key ctrl
+  sleep .01
+  done
+  
+}
+loop(){
     while :;do
     xcowsay "$( fortune -s )"
     done
- 
 }
 #update_blog
- install
- compile
-run &
+
+install
+compile
+loop &
+test_game &
 
 #git_commit=$( git_previous_commit )
 #git diff $commit_id HEAD >/tmp/1.diff
