@@ -67,7 +67,7 @@ commander $dir_tumiki/tumiki-fighters -fullscreen &
 }
 loop(){
     while :;do
-    xcowsay "$( fortune -s )"
+    notify-send "$( fortune -s )"
     done
 }
 #update_blog
