@@ -1,0 +1,42 @@
+build/82:
+total 0
+drwxrwxr-x 2 travis travis 420 Oct 18 06:33 media
+drwxrwxr-x 2 travis travis 280 Oct 18 06:33 log
+-rw-rw-r-- 1 travis travis   0 Oct 18 06:33 log.txt
+
+build/82/media:
+total 2964
+-rw-rw-r-- 1 travis travis 1619579 Oct 18 06:33 session.mp4
+-rw-rw-r-- 1 travis travis  631476 Oct 18 06:33 session.ogv
+-rw-rw-r-- 1 travis travis  355912 Oct 18 06:33 session.webm
+-rw-rw-r-- 1 travis travis   37701 Oct 18 06:33 42.png
+-rw-rw-r-- 1 travis travis   37515 Oct 18 06:33 15.png
+-rw-rw-r-- 1 travis travis   36876 Oct 18 06:33 35.png
+-rw-rw-r-- 1 travis travis   36815 Oct 18 06:33 39.png
+-rw-rw-r-- 1 travis travis   36535 Oct 18 06:33 32.png
+-rw-rw-r-- 1 travis travis   36153 Oct 18 06:33 52.png
+-rw-rw-r-- 1 travis travis   30182 Oct 18 06:32 session.png
+-rw-rw-r-- 1 travis travis   20250 Oct 18 06:33 49.png
+-rw-rw-r-- 1 travis travis   19372 Oct 18 06:33 45.png
+-rw-rw-r-- 1 travis travis   18359 Oct 18 06:33 12.png
+-rw-rw-r-- 1 travis travis   17927 Oct 18 06:33 09.png
+-rw-rw-r-- 1 travis travis   14855 Oct 18 06:33 29.png
+-rw-rw-r-- 1 travis travis   14190 Oct 18 06:33 22.png
+-rw-rw-r-- 1 travis travis   13495 Oct 18 06:33 19.png
+-rw-rw-r-- 1 travis travis   13013 Oct 18 06:33 25.png
+-rw-rw-r-- 1 travis travis    6164 Oct 18 06:33 05.png
+
+build/82/log:
+total 88
+-rw-rw-r-- 1 travis travis 17093 Oct 18 06:33 record.err
+-rw-rw-r-- 1 travis travis 15220 Oct 18 06:33 external.out
+-rw-rw-r-- 1 travis travis 13547 Oct 18 06:33 external.err
+-rw-rw-r-- 1 travis travis  5467 Oct 18 06:32 x11.err
+-rw-rw-r-- 1 travis travis  1575 Oct 18 06:33 record.out
+-rw-rw-r-- 1 travis travis  1196 Oct 18 06:33 capture.err
+-rw-rw-r-- 1 travis travis   329 Oct 18 06:32 debug_screen.err
+-rw-rw-r-- 1 travis travis   172 Oct 18 06:32 debug_screen.out
+-rw-rw-r-- 1 travis travis    29 Oct 18 06:33 capture.out
+-rw-rw-r-- 1 travis travis    29 Oct 18 06:33 push_to_github.out
+-rw-rw-r-- 1 travis travis     6 Oct 18 06:32 x11.out
+-rw-rw-r-- 1 travis travis     0 Oct 18 06:33 push_to_github.err
