@@ -40,7 +40,7 @@ public class Enemy: Actor {
   ActorPool fragments;
   DamageGauge gauge;
   EnemySpec spec;
-  static const int PARTS_MAX_NUM = 88;
+  static const int PARTS_MAX_NUM = 808;
   EnemyPart[PARTS_MAX_NUM] parts;
   int partsNum;
   int fireCnt, attackFormIdx, attackPtnIdx, barragePtnIdx;
