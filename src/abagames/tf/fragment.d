@@ -81,7 +81,7 @@ public class Fragment: Actor {
     }
     glPushMatrix();
     glTranslatef(pos.x, pos.y, -1);
-    glRotatef(deg, 0, 0, 1);
+    glRotatef(deg, 0, 1, 1);
     glScalef(size.x, size.y, (size.x  + size.y) / 2);
     glCallList(Tumiki.displayListIdx + shape + color * Tumiki.SHAPE_NUM +
 	       Tumiki.SHAPE_NUM * Tumiki.COLOR_NUM);
