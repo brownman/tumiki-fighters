@@ -1,6 +1,6 @@
 tumiki-fighters
 -----
-**mission:** create a video blog : record screencast of various versoins of the game: tumiki-fighters
+**mission:** practice OpenGL by patching this game
 
 
 
