@@ -14,4 +14,4 @@ note
 alt="IMAGE ALT TEXT HERE" width="70%" height="70%" border="10" /></a>
 
 
-[builds](https://github.com/brownman/tumiki-fighters/tree/gh-pages/build)
+### [travis builds](https://github.com/brownman/tumiki-fighters/tree/gh-pages/build)
