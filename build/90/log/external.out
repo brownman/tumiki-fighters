@@ -1,0 +1,174 @@
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+fakeroot is already the newest version.
+fakeroot set to manually installed.
+The following package was automatically installed and is no longer required:
+  libgeos-3.2.2
+Use 'apt-get autoremove' to remove them.
+Suggested packages:
+  debian-keyring
+The following packages will be upgraded:
+  build-essential dpkg-dev libdpkg-perl
+3 upgraded, 0 newly installed, 0 to remove and 96 not upgraded.
+Need to get 656 kB of archives.
+After this operation, 8,192 B disk space will be freed.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main dpkg-dev all 1.16.1.2ubuntu7.5 [468 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libdpkg-perl all 1.16.1.2ubuntu7.5 [182 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main build-essential amd64 11.5ubuntu2.1 [5,816 B]
+Fetched 656 kB in 0s (4,965 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 75257 files and directories currently installed.)
+Preparing to replace dpkg-dev 1.16.1.2ubuntu7 (using .../dpkg-dev_1.16.1.2ubuntu7.5_all.deb) ...
+Unpacking replacement dpkg-dev ...
+Preparing to replace libdpkg-perl 1.16.1.2ubuntu7 (using .../libdpkg-perl_1.16.1.2ubuntu7.5_all.deb) ...
+Unpacking replacement libdpkg-perl ...
+Preparing to replace build-essential 11.5ubuntu2 (using .../build-essential_11.5ubuntu2.1_amd64.deb) ...
+Unpacking replacement build-essential ...
+Processing triggers for man-db ...
+Setting up libdpkg-perl (1.16.1.2ubuntu7.5) ...
+Setting up dpkg-dev (1.16.1.2ubuntu7.5) ...
+Setting up build-essential (11.5ubuntu2.1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following NEW packages will be installed:
+  cpp-4.4 g++-4.4 gcc-4.4 gcc-4.4-base gdc-4.4 gdc-v1 libasound2-dev
+  libbulletml-dev libcaca-dev libflac-dev libmad0-dev libmikmod2-dev
+  libogg-dev libphobos-4.4-dev libsdl-mixer1.2-dev libsdl1.2-dev libslang2-dev
+  libstdc++6-4.4-dev libvorbis-dev
+0 upgraded, 19 newly installed, 0 to remove and 96 not upgraded.
+Need to get 22.7 MB of archives.
+After this operation, 65.6 MB of additional disk space will be used.
+Get:1 http://us.archive.ubuntu.com/ubuntu/ precise/main gcc-4.4-base amd64 4.4.7-1ubuntu2 [12.0 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu/ precise/main cpp-4.4 amd64 4.4.7-1ubuntu2 [3,967 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu/ precise/main gcc-4.4 amd64 4.4.7-1ubuntu2 [2,967 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu/ precise/main libstdc++6-4.4-dev amd64 4.4.7-1ubuntu2 [1,529 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu/ precise/main g++-4.4 amd64 4.4.7-1ubuntu2 [5,605 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu/ precise/universe libphobos-4.4-dev amd64 1.063-4.4.7-1ubuntu1 [696 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu/ precise/universe gdc-4.4 amd64 1.063-4.4.7-1ubuntu1 [4,319 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu/ precise/universe gdc-v1 amd64 4.6.3-1ubuntu5 [5,932 B]
+Get:9 http://us.archive.ubuntu.com/ubuntu/ precise-updates/main libasound2-dev amd64 1.0.25-1ubuntu10.2 [70.9 kB]
+Get:10 http://us.archive.ubuntu.com/ubuntu/ precise/main libslang2-dev amd64 2.2.4-3ubuntu1 [560 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu/ precise/main libcaca-dev amd64 0.99.beta17-2.1ubuntu2 [840 kB]
+Get:12 http://us.archive.ubuntu.com/ubuntu/ precise/main libogg-dev amd64 1.2.2~dfsg-1ubuntu1 [66.4 kB]
+Get:13 http://us.archive.ubuntu.com/ubuntu/ precise/main libflac-dev amd64 1.2.1-6 [218 kB]
+Get:14 http://us.archive.ubuntu.com/ubuntu/ precise/main libmad0-dev amd64 0.15.1b-7ubuntu1 [76.1 kB]
+Get:15 http://us.archive.ubuntu.com/ubuntu/ precise/universe libmikmod2-dev amd64 3.1.12-2 [246 kB]
+Get:16 http://us.archive.ubuntu.com/ubuntu/ precise/main libsdl1.2-dev amd64 1.2.14-6.4ubuntu3 [834 kB]
+Get:17 http://us.archive.ubuntu.com/ubuntu/ precise/main libvorbis-dev amd64 1.3.2-1ubuntu3 [472 kB]
+Get:18 http://us.archive.ubuntu.com/ubuntu/ precise/universe libsdl-mixer1.2-dev amd64 1.2.11-7 [133 kB]
+Get:19 http://us.archive.ubuntu.com/ubuntu/ precise/universe libbulletml-dev amd64 0.0.6-5 [104 kB]
+Fetched 22.7 MB in 0s (26.7 MB/s)
+Selecting previously unselected package gcc-4.4-base.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 75257 files and directories currently installed.)
+Unpacking gcc-4.4-base (from .../gcc-4.4-base_4.4.7-1ubuntu2_amd64.deb) ...
+Selecting previously unselected package cpp-4.4.
+Unpacking cpp-4.4 (from .../cpp-4.4_4.4.7-1ubuntu2_amd64.deb) ...
+Selecting previously unselected package gcc-4.4.
+Unpacking gcc-4.4 (from .../gcc-4.4_4.4.7-1ubuntu2_amd64.deb) ...
+Selecting previously unselected package libstdc++6-4.4-dev.
+Unpacking libstdc++6-4.4-dev (from .../libstdc++6-4.4-dev_4.4.7-1ubuntu2_amd64.deb) ...
+Selecting previously unselected package g++-4.4.
+Unpacking g++-4.4 (from .../g++-4.4_4.4.7-1ubuntu2_amd64.deb) ...
+Selecting previously unselected package libphobos-4.4-dev.
+Unpacking libphobos-4.4-dev (from .../libphobos-4.4-dev_1.063-4.4.7-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package gdc-4.4.
+Unpacking gdc-4.4 (from .../gdc-4.4_1.063-4.4.7-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package gdc-v1.
+Unpacking gdc-v1 (from .../gdc-v1_4.6.3-1ubuntu5_amd64.deb) ...
+Selecting previously unselected package libasound2-dev.
+Unpacking libasound2-dev (from .../libasound2-dev_1.0.25-1ubuntu10.2_amd64.deb) ...
+Selecting previously unselected package libslang2-dev.
+Unpacking libslang2-dev (from .../libslang2-dev_2.2.4-3ubuntu1_amd64.deb) ...
+Selecting previously unselected package libcaca-dev.
+Unpacking libcaca-dev (from .../libcaca-dev_0.99.beta17-2.1ubuntu2_amd64.deb) ...
+Selecting previously unselected package libogg-dev.
+Unpacking libogg-dev (from .../libogg-dev_1.2.2~dfsg-1ubuntu1_amd64.deb) ...
+Selecting previously unselected package libflac-dev.
+Unpacking libflac-dev (from .../libflac-dev_1.2.1-6_amd64.deb) ...
+Selecting previously unselected package libmad0-dev.
+Unpacking libmad0-dev (from .../libmad0-dev_0.15.1b-7ubuntu1_amd64.deb) ...
+Selecting previously unselected package libmikmod2-dev.
+Unpacking libmikmod2-dev (from .../libmikmod2-dev_3.1.12-2_amd64.deb) ...
+Selecting previously unselected package libsdl1.2-dev.
+Unpacking libsdl1.2-dev (from .../libsdl1.2-dev_1.2.14-6.4ubuntu3_amd64.deb) ...
+Selecting previously unselected package libvorbis-dev.
+Unpacking libvorbis-dev (from .../libvorbis-dev_1.3.2-1ubuntu3_amd64.deb) ...
+Selecting previously unselected package libsdl-mixer1.2-dev.
+Unpacking libsdl-mixer1.2-dev (from .../libsdl-mixer1.2-dev_1.2.11-7_amd64.deb) ...
+Selecting previously unselected package libbulletml-dev.
+Unpacking libbulletml-dev (from .../libbulletml-dev_0.0.6-5_amd64.deb) ...
+Processing triggers for man-db ...
+Setting up gcc-4.4-base (4.4.7-1ubuntu2) ...
+Setting up cpp-4.4 (4.4.7-1ubuntu2) ...
+Setting up gcc-4.4 (4.4.7-1ubuntu2) ...
+Setting up libasound2-dev (1.0.25-1ubuntu10.2) ...
+Setting up libslang2-dev (2.2.4-3ubuntu1) ...
+Setting up libcaca-dev (0.99.beta17-2.1ubuntu2) ...
+Setting up libogg-dev (1.2.2~dfsg-1ubuntu1) ...
+Setting up libflac-dev (1.2.1-6) ...
+Setting up libmad0-dev (0.15.1b-7ubuntu1) ...
+Setting up libmikmod2-dev (3.1.12-2) ...
+Setting up libsdl1.2-dev (1.2.14-6.4ubuntu3) ...
+Setting up libvorbis-dev (1.3.2-1ubuntu3) ...
+Setting up libsdl-mixer1.2-dev (1.2.11-7) ...
+Setting up libbulletml-dev (0.0.6-5) ...
+Setting up libstdc++6-4.4-dev (4.4.7-1ubuntu2) ...
+Setting up g++-4.4 (4.4.7-1ubuntu2) ...
+Setting up gdc-4.4 (1.063-4.4.7-1ubuntu1) ...
+Setting up gdc-v1 (4.6.3-1ubuntu5) ...
+Setting up libphobos-4.4-dev (1.063-4.4.7-1ubuntu1) ...
+gdmd-v1 -d -c -ofsrc/dirent.o -g -debug -O -Iimport -Isrc src/dirent.d
+gdmd-v1 -d -c -ofsrc/abagames/util/vector.o -g -debug -O -Iimport -Isrc src/abagames/util/vector.d
+gdmd-v1 -d -c -ofsrc/abagames/util/sdl/texture.o -g -debug -O -Iimport -Isrc src/abagames/util/sdl/texture.d
+gdmd-v1 -d -c -ofsrc/abagames/util/sdl/sound.o -g -debug -O -Iimport -Isrc src/abagames/util/sdl/sound.d
+gdmd-v1 -d -c -ofsrc/abagames/util/sdl/sdlexception.o -g -debug -O -Iimport -Isrc src/abagames/util/sdl/sdlexception.d
+gdmd-v1 -d -c -ofsrc/abagames/util/sdl/screen3d.o -g -debug -O -Iimport -Isrc src/abagames/util/sdl/screen3d.d
+gdmd-v1 -d -c -ofsrc/abagames/util/sdl/screen.o -g -debug -O -Iimport -Isrc src/abagames/util/sdl/screen.d
+gdmd-v1 -d -c -ofsrc/abagames/util/sdl/pad.o -g -debug -O -Iimport -Isrc src/abagames/util/sdl/pad.d
+gdmd-v1 -d -c -ofsrc/abagames/util/sdl/mainloop.o -g -debug -O -Iimport -Isrc src/abagames/util/sdl/mainloop.d
+gdmd-v1 -d -c -ofsrc/abagames/util/sdl/input.o -g -debug -O -Iimport -Isrc src/abagames/util/sdl/input.d
+gdmd-v1 -d -c -ofsrc/abagames/util/sdl/gamemanager.o -g -debug -O -Iimport -Isrc src/abagames/util/sdl/gamemanager.d
+gdmd-v1 -d -c -ofsrc/abagames/util/rand.o -g -debug -O -Iimport -Isrc src/abagames/util/rand.d
+gdmd-v1 -d -c -ofsrc/abagames/util/prefmanager.o -g -debug -O -Iimport -Isrc src/abagames/util/prefmanager.d
+gdmd-v1 -d -c -ofsrc/abagames/util/logger.o -g -debug -O -Iimport -Isrc src/abagames/util/logger.d
+gdmd-v1 -d -c -ofsrc/abagames/util/iterator.o -g -debug -O -Iimport -Isrc src/abagames/util/iterator.d
+gdmd-v1 -d -c -ofsrc/abagames/util/csv.o -g -debug -O -Iimport -Isrc src/abagames/util/csv.d
+gdmd-v1 -d -c -ofsrc/abagames/util/bulletml/bulletsmanager.o -g -debug -O -Iimport -Isrc src/abagames/util/bulletml/bulletsmanager.d
+gdmd-v1 -d -c -ofsrc/abagames/util/bulletml/bullet.o -g -debug -O -Iimport -Isrc src/abagames/util/bulletml/bullet.d
+gdmd-v1 -d -c -ofsrc/abagames/util/actorpool.o -g -debug -O -Iimport -Isrc src/abagames/util/actorpool.d
+gdmd-v1 -d -c -ofsrc/abagames/util/actor.o -g -debug -O -Iimport -Isrc src/abagames/util/actor.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/tumikiset.o -g -debug -O -Iimport -Isrc src/abagames/tf/tumikiset.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/tumiki.o -g -debug -O -Iimport -Isrc src/abagames/tf/tumiki.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/stuckenemy.o -g -debug -O -Iimport -Isrc src/abagames/tf/stuckenemy.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/stagemanager.o -g -debug -O -Iimport -Isrc src/abagames/tf/stagemanager.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/splinter.o -g -debug -O -Iimport -Isrc src/abagames/tf/splinter.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/soundmanager.o -g -debug -O -Iimport -Isrc src/abagames/tf/soundmanager.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/ship.o -g -debug -O -Iimport -Isrc src/abagames/tf/ship.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/screen.o -g -debug -O -Iimport -Isrc src/abagames/tf/screen.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/scoresign.o -g -debug -O -Iimport -Isrc src/abagames/tf/scoresign.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/prefmanager.o -g -debug -O -Iimport -Isrc src/abagames/tf/prefmanager.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/particle.o -g -debug -O -Iimport -Isrc src/abagames/tf/particle.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/morphbullet.o -g -debug -O -Iimport -Isrc src/abagames/tf/morphbullet.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/mobileletter.o -g -debug -O -Iimport -Isrc src/abagames/tf/mobileletter.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/letterrender.o -g -debug -O -Iimport -Isrc src/abagames/tf/letterrender.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/gamemanager.o -g -debug -O -Iimport -Isrc src/abagames/tf/gamemanager.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/fragment.o -g -debug -O -Iimport -Isrc src/abagames/tf/fragment.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/field.o -g -debug -O -Iimport -Isrc src/abagames/tf/field.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/enemyspec.o -g -debug -O -Iimport -Isrc src/abagames/tf/enemyspec.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/enemy.o -g -debug -O -Iimport -Isrc src/abagames/tf/enemy.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/damagegauge.o -g -debug -O -Iimport -Isrc src/abagames/tf/damagegauge.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/bullettarget.o -g -debug -O -Iimport -Isrc src/abagames/tf/bullettarget.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/bulletinst.o -g -debug -O -Iimport -Isrc src/abagames/tf/bulletinst.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/bulletactorpool.o -g -debug -O -Iimport -Isrc src/abagames/tf/bulletactorpool.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/bulletactor.o -g -debug -O -Iimport -Isrc src/abagames/tf/bulletactor.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/boot.o -g -debug -O -Iimport -Isrc src/abagames/tf/boot.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/barragemanager.o -g -debug -O -Iimport -Isrc src/abagames/tf/barragemanager.d
+gdmd-v1 -d -c -ofsrc/abagames/tf/attractmanager.o -g -debug -O -Iimport -Isrc src/abagames/tf/attractmanager.d
+gdmd-v1 -d -c -ofimport/SDL_video.o -g -debug -O -Iimport -Isrc import/SDL_video.d
+gdmd-v1 -d -c -ofimport/SDL_mixer.o -g -debug -O -Iimport -Isrc import/SDL_mixer.d
+gdc-v1 -o tumiki-fighters src/dirent.o src/abagames/util/vector.o src/abagames/util/sdl/texture.o src/abagames/util/sdl/sound.o src/abagames/util/sdl/sdlexception.o src/abagames/util/sdl/screen3d.o src/abagames/util/sdl/screen.o src/abagames/util/sdl/pad.o src/abagames/util/sdl/mainloop.o src/abagames/util/sdl/input.o src/abagames/util/sdl/gamemanager.o src/abagames/util/rand.o src/abagames/util/prefmanager.o src/abagames/util/logger.o src/abagames/util/iterator.o src/abagames/util/csv.o src/abagames/util/bulletml/bulletsmanager.o src/abagames/util/bulletml/bullet.o src/abagames/util/actorpool.o src/abagames/util/actor.o src/abagames/tf/tumikiset.o src/abagames/tf/tumiki.o src/abagames/tf/stuckenemy.o src/abagames/tf/stagemanager.o src/abagames/tf/splinter.o src/abagames/tf/soundmanager.o src/abagames/tf/ship.o src/abagames/tf/screen.o src/abagames/tf/scoresign.o src/abagames/tf/prefmanager.o src/abagames/tf/particle.o src/abagames/tf/morphbullet.o src/abagames/tf/mobileletter.o src/abagames/tf/letterrender.o src/abagames/tf/gamemanager.o src/abagames/tf/fragment.o src/abagames/tf/field.o src/abagames/tf/enemyspec.o src/abagames/tf/enemy.o src/abagames/tf/damagegauge.o src/abagames/tf/bullettarget.o src/abagames/tf/bulletinst.o src/abagames/tf/bulletactorpool.o src/abagames/tf/bulletactor.o src/abagames/tf/boot.o src/abagames/tf/barragemanager.o src/abagames/tf/attractmanager.o import/SDL_video.o import/SDL_mixer.o -lbulletml -lSDL -lGL -lSDL_mixer
+res: 0
+
+
