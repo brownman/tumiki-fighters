@@ -1,4 +1,4 @@
-tumiki-fighters
+About this project:
 -----
 **mission:** practice OpenGL by patching this game
 
