@@ -1,12 +1,7 @@
 tumiki-fighters
 -----
+**mission:** create a video blog : record screencast of various versoins of the game: tumiki-fighters
 
-- create a video blog : record screencast of various versoins of the game: tumiki-fighters
-- port the game to android
-
-note
-----
-- this game make use of [travis_screencast](https://github.com/brownman/travis_screencast) to record the desktop-session and upload the video it to github-pages
 
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=VssGsGpvlHA
@@ -14,4 +9,8 @@ note
 alt="IMAGE ALT TEXT HERE" width="70%" height="70%" border="10" /></a>
 
 
-### [travis builds](https://github.com/brownman/tumiki-fighters/tree/gh-pages/build)
+
+notes
+----
+- this game make use of [travis_screencast](https://github.com/brownman/travis_screencast) to record the desktop-session and upload the video it to github-pages
+- travis builds goes  [here](https://github.com/brownman/tumiki-fighters/tree/gh-pages/build)
