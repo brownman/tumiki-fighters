@@ -12,5 +12,5 @@ alt="IMAGE ALT TEXT HERE" width="70%" height="70%" border="10" /></a>
 
 notes
 ----
-- this game make use of [travis_screencast](https://github.com/brownman/travis_screencast) to record the desktop-session and upload the produced to github-pages OR youtube
+- this game make use of [travis_screencast](https://github.com/brownman/travis_screencast) to record the run this game + record a desktop-session + upload the produced video to github-pages OR youtube
 - travis builds goes  [here](https://github.com/brownman/tumiki-fighters/tree/gh-pages/build)
