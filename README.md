@@ -6,4 +6,4 @@ tumiki-fighters
 
 note
 ----
-- this game make use of travis_screencast to record the desktop-session and upload the video it to github-pages
+- this game make use of [travis_screencast](https://github.com/brownman/travis_screencast) to record the desktop-session and upload the video it to github-pages
