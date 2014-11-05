@@ -1,0 +1,5 @@
+[01;34m[*][0m [cmd] xwininfo -root -tree [01;32m[*][0m : 
+[01;34m[*][0m [cmd] xcowsay -t 3 travis: build number: 89 Xlib:  extension "RANDR" missing on display ":99.0".
+[01;34m[*][0m [cmd] sleep 1 [01;32m[*][0m : 
+[01;34m[*][0m [cmd] import -window root /tmp/PRODUCT/session.png [01;32m[*][0m : 
+[01;32m[*][0m : 
